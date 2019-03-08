@@ -1809,7 +1809,7 @@
           "optionCost" : 0.0,
           "listOfRestrictions" : null,
           "optionID" : 454,
-          "optionName" : "$Sergeant Equipment Other Models",
+          "optionName" : null,
           "autoAddDictionary" : { },
           "modelsAdded" : 0,
           "listOfCurrencies" : null
