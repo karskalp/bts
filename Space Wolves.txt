@@ -1,0 +1,4416 @@
+{
+  "games" : [ {
+    "gameName" : "Warhammer 40K 8th Edition",
+    "armies" : [ {
+      "listOfRestrictions" : null,
+      "listOfUnits" : [ {
+        "unitName" : "Logan Grimnar",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 170.0,
+        "unitID" : 4095,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Logan Grimnar On Stormrider",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 190.0,
+        "unitID" : 4096,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wolf Lord On Thunderwolf",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4402,
+          "optionName" : "$Melee Weapons Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4403,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4404,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4405,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4801,
+          "optionName" : "Boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 118.0,
+        "unitID" : 4097,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Ragnar Blackmane",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4780,
+          "optionName" : "Svangir",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4781,
+          "optionName" : "Ulfgir",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 141.0,
+        "unitID" : 4098,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Krom Dragongaze",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 90.0,
+        "unitID" : 4099,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Harald Deathwolf",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 188.0,
+        "unitID" : 4100,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Canis Wolfborn",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 125.0,
+        "unitID" : 4101,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Rune Priest",
+        "listOfOptions" : [ {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4406,
+          "optionName" : "Runic Axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4407,
+          "optionName" : "Psychic hood",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4408,
+          "optionName" : "Runic armour",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4409,
+          "optionName" : "Runic stave",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4410,
+          "optionName" : "Runic sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4411,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 24.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4413,
+          "optionName" : "Jump pack",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 88.0,
+        "unitID" : 4102,
+        "autoAddDictionary" : {
+          "4406" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Rune Priest In Terminator Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4414,
+          "optionName" : "Runic Axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4415,
+          "optionName" : "Runic stave",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4416,
+          "optionName" : "Runic sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4417,
+          "optionName" : "Psychic hood",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4418,
+          "optionName" : "Runic terminator armour",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4419,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 102.0,
+        "unitID" : 4103,
+        "autoAddDictionary" : {
+          "4414" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Njal Stormcaller",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 138.0,
+        "unitID" : 4105,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Njal Stormcaller In Runic Terminator Armour",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 153.0,
+        "unitID" : 4106,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wolf Priest",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4429,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4431,
+          "optionName" : "Jump pack",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4779,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 75.0,
+        "unitID" : 4107,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wolf Priest In Terminator Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4432,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4433,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 95.0,
+        "unitID" : 4108,
+        "autoAddDictionary" : {
+          "4432" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Ulrik The Slayer",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 110.0,
+        "unitID" : 4110,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wolf Guard Battle Leader",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4437,
+          "optionName" : "$Melee Weapons Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4438,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4439,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4440,
+          "optionName" : "Jump pack",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4822,
+          "optionName" : "Boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4823,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 60.0,
+        "unitID" : 4111,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wolf Guard Battle Leader In Terminator Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4447,
+          "optionName" : "$Terminator Melee Weapons Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4448,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4449,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4450,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4451,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 91.0,
+        "unitID" : 4113,
+        "autoAddDictionary" : {
+          "4450" : "1",
+          "4449" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wolf Guard Battle Leader On Thunderwolf",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4452,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4453,
+          "optionName" : "$Melee Weapons Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4454,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4455,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4829,
+          "optionName" : "Boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 104.0,
+        "unitID" : 4114,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Bjorn The Fell-Handed",
+        "listOfOptions" : [ {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4456,
+          "optionName" : "Assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4458,
+          "optionName" : "Helfrost cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4459,
+          "optionName" : "Heavy plasma cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4460,
+          "optionName" : "Twin lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 180.0,
+        "unitID" : 4115,
+        "autoAddDictionary" : {
+          "4456" : "1",
+          "4457" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Blood Claws",
+        "listOfOptions" : [ {
+          "optionCost" : 13.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4461,
+          "optionName" : "Additional Blood Claw",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4462,
+          "optionName" : "Wolf Guard Pack Leader",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4463,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4464,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4465,
+          "optionName" : "$Special Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4466,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4467,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4468,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4469,
+          "optionName" : "$Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4470,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4471,
+          "optionName" : "$Terminator Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4472,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 26.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4831,
+          "optionName" : "Wolf Guard Terminator Pack Leader",
+          "autoAddDictionary" : {
+            "4463" : "1",
+            "4464" : "1"
+          },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Troops",
+        "unitCost" : 65.0,
+        "unitID" : 4116,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Lukas The Trickster",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 110.0,
+        "unitID" : 4117,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Grey Hunters",
+        "listOfOptions" : [ {
+          "optionCost" : 13.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4473,
+          "optionName" : "Additional Grey Hunter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4474,
+          "optionName" : "Wolf Guard Pack Leader",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4475,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4476,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4477,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4478,
+          "optionName" : "Wolf standard",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4479,
+          "optionName" : "$Special Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4480,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4481,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4482,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4483,
+          "optionName" : "$Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4484,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4485,
+          "optionName" : "$Terminator Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4486,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 26.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4832,
+          "optionName" : "Wolf Guard Terminator Pack Leader",
+          "autoAddDictionary" : {
+            "4475" : "1",
+            "4476" : "1"
+          },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4834,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Troops",
+        "unitCost" : 65.0,
+        "unitID" : 4118,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Iron Priest",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4488,
+          "optionName" : "Servo-arm",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4489,
+          "optionName" : "Tempest hammer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4490,
+          "optionName" : "Helfrost pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 45.0,
+        "unitID" : 4119,
+        "autoAddDictionary" : {
+          "4488" : "1",
+          "4489" : "1",
+          "4490" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Cyberwolves",
+        "listOfOptions" : [ {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4500,
+          "optionName" : "Additional Cyberwolf",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 15.0,
+        "unitID" : 4122,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Wolf Scouts",
+        "listOfOptions" : [ {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4501,
+          "optionName" : "Additional Wolf scout",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4502,
+          "optionName" : "Camo cloak",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4503,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4504,
+          "optionName" : "Combat knife",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4505,
+          "optionName" : "Sniper rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4506,
+          "optionName" : "Astartes shotgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4507,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4508,
+          "optionName" : "Missile launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4509,
+          "optionName" : "$Special Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4510,
+          "optionName" : "$Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4511,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4512,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4840,
+          "optionName" : "Wolf Guard Pack Leader",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4841,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4842,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4843,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 55.0,
+        "unitID" : 4123,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Wulfen",
+        "listOfOptions" : [ {
+          "optionCost" : 28.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4513,
+          "optionName" : "Additional Wulfen",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4514,
+          "optionName" : "Frost claws",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4515,
+          "optionName" : "Stormfrag auto-launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4516,
+          "optionName" : "Great frost axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4517,
+          "optionName" : "Thunder hammer and storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 140.0,
+        "unitID" : 4124,
+        "autoAddDictionary" : {
+          "4514" : "1"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Murderfang",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4527,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4528,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 170.0,
+        "unitID" : 4127,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Wolf Guard",
+        "listOfOptions" : [ {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4529,
+          "optionName" : "Additional Wolf Guard",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4530,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4531,
+          "optionName" : "$Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4532,
+          "optionName" : "Jump pack",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4533,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4534,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 70.0,
+        "unitID" : 4128,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Arjac Rockfist",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 145.0,
+        "unitID" : 4131,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Wolf Guard Terminators",
+        "listOfOptions" : [ {
+          "optionCost" : 23.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4542,
+          "optionName" : "Additional Wolf Guard Terminator",
+          "autoAddDictionary" : {
+            "4543" : "1",
+            "4545" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4543,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4544,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4545,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4546,
+          "optionName" : "$Terminator Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4547,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4548,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4551,
+          "optionName" : "$Terminator Heavy Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 115.0,
+        "unitID" : 4132,
+        "autoAddDictionary" : {
+          "4543" : "4",
+          "4544" : "1",
+          "4545" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[3]Swiftclaws",
+        "listOfOptions" : [ {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4552,
+          "optionName" : "Additional Swiftclaw",
+          "autoAddDictionary" : {
+            "4554" : "3"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4553,
+          "optionName" : "Swiftclaw Attack Bike",
+          "autoAddDictionary" : {
+            "4554" : "1",
+            "4555" : "1"
+          },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4554,
+          "optionName" : "Twin boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4555,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4556,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4557,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4559,
+          "optionName" : "$Special Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4560,
+          "optionName" : "$Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4561,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4562,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 32.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4932,
+          "optionName" : "Wolf Guard Bike Leader",
+          "autoAddDictionary" : {
+            "4554" : "1"
+          },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4933,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4934,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4935,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4936,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 63.0,
+        "unitID" : 4133,
+        "autoAddDictionary" : {
+          "4554" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Swiftclaw Attack Bikes",
+        "listOfOptions" : [ {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4563,
+          "optionName" : "Additional Swiftclaw Attack Bike",
+          "autoAddDictionary" : {
+            "4564" : "1",
+            "4565" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4564,
+          "optionName" : "Twin boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4565,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4566,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 25.0,
+        "unitID" : 4134,
+        "autoAddDictionary" : {
+          "4564" : "1",
+          "4565" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Stormwolf",
+        "listOfOptions" : [ {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4567,
+          "optionName" : "Two lascannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 34.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4568,
+          "optionName" : "Two twin heavy bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4569,
+          "optionName" : "Twin helfrost cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 80.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4570,
+          "optionName" : "Two twin multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 24.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4571,
+          "optionName" : "Skyhammer missile launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Flyers",
+        "unitCost" : 165.0,
+        "unitID" : 4135,
+        "autoAddDictionary" : {
+          "4567" : "1",
+          "4568" : "1",
+          "4569" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Thunderwolf Cavalry",
+        "listOfOptions" : [ {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4572,
+          "optionName" : "Additional Thunderwold Cavalry",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4573,
+          "optionName" : "$Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4574,
+          "optionName" : "Boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4575,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4576,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 120.0,
+        "unitID" : 4136,
+        "autoAddDictionary" : { },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Fenrisian Wolves",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4577,
+          "optionName" : "Additional Fenrisian Wolf",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4578,
+          "optionName" : "Cyberwolf",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 40.0,
+        "unitID" : 4137,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Skyclaws",
+        "listOfOptions" : [ {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4579,
+          "optionName" : "Additional Skyclaw",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4580,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4581,
+          "optionName" : "$Special Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4582,
+          "optionName" : "$Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4583,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4928,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4929,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4930,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4931,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 75.0,
+        "unitID" : 4138,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Stormfang Gunship",
+        "listOfOptions" : [ {
+          "optionCost" : 34.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4585,
+          "optionName" : "Two twin heavy bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 42.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4586,
+          "optionName" : "Two stormstrike missile launchers",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 80.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4587,
+          "optionName" : "Two twin multi-meltas",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 24.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4588,
+          "optionName" : "Skyhammer missile launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4589,
+          "optionName" : "Two lascannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Flyers",
+        "unitCost" : 175.0,
+        "unitID" : 4139,
+        "autoAddDictionary" : {
+          "4585" : "1",
+          "4586" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Long Fangs",
+        "listOfOptions" : [ {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4590,
+          "optionName" : "Additional Long Fang",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4591,
+          "optionName" : "Wolf Guard Pack Leader",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4592,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4593,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4594,
+          "optionName" : "$Heavy Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4595,
+          "optionName" : "$Special Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4596,
+          "optionName" : "$Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4597,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4598,
+          "optionName" : "$Terminator Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4599,
+          "optionName" : "$Terminator Heavy Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4600,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 26.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4955,
+          "optionName" : "Wolf Guard Terminator Pack Leader",
+          "autoAddDictionary" : {
+            "4592" : "1",
+            "4593" : "1"
+          },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4957,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4958,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4959,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 70.0,
+        "unitID" : 4140,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Primaris Rune Priest",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4777,
+          "optionName" : "Runic sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 93.0,
+        "unitID" : 4776,
+        "autoAddDictionary" : {
+          "4777" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Primaris Wolf Priest",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 80.0,
+        "unitID" : 4778,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Wolf Lord",
+        "listOfOptions" : [ {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4785,
+          "optionName" : "Master-crafted boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4796,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4797,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4798,
+          "optionName" : "$Melee Weapons Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4799,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 19.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4800,
+          "optionName" : "Jump pack",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 74.0,
+        "unitID" : 4782,
+        "autoAddDictionary" : {
+          "4785" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wolf Lord In Terminator Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4805,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4806,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4807,
+          "optionName" : "$Terminator Melee Weapons Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4808,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4809,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4810,
+          "optionName" : "Wrist-mounted grenade launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 95.0,
+        "unitID" : 4802,
+        "autoAddDictionary" : {
+          "4805" : "1",
+          "4806" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Wolf Lord In Cataphractii Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4811,
+          "optionName" : "Chainfist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4812,
+          "optionName" : "Combi-bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4813,
+          "optionName" : "$Terminator Melee Weapons Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4814,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 95.0,
+        "unitID" : 4803,
+        "autoAddDictionary" : {
+          "4811" : "1",
+          "4812" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Wolf Lord In Gravis Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4820,
+          "optionName" : "Master-crafted power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4821,
+          "optionName" : "Boltstorm gauntlet",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 90.0,
+        "unitID" : 4804,
+        "autoAddDictionary" : {
+          "4820" : "1",
+          "4821" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Primaris Wolf Lord",
+        "listOfOptions" : [ {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4816,
+          "optionName" : "Master-crafted auto bolt rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4817,
+          "optionName" : "Master-crafted stalker bolt rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4818,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4819,
+          "optionName" : "Power fist and plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 78.0,
+        "unitID" : 4815,
+        "autoAddDictionary" : {
+          "4816" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Primaris Battle Leader",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4825,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4826,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4827,
+          "optionName" : "Master-crafted auto bolt rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4828,
+          "optionName" : "Master-crafted stalker bolt rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 70.0,
+        "unitID" : 4824,
+        "autoAddDictionary" : {
+          "4825" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Intercessors",
+        "listOfOptions" : [ {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4836,
+          "optionName" : "Auto bolt rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4837,
+          "optionName" : "Stalker bolt rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4838,
+          "optionName" : "Auxiliary grenade launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4839,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4104,
+          "optionName" : "Additional Intercesor",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Troops",
+        "unitCost" : 85.0,
+        "unitID" : 4835,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Reivers",
+        "listOfOptions" : [ {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4845,
+          "optionName" : "Additional Reiver",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4846,
+          "optionName" : "Combat knife",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4847,
+          "optionName" : "Grav-chute",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4848,
+          "optionName" : "Grapnel launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 90.0,
+        "unitID" : 4844,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Aggressors",
+        "listOfOptions" : [ {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4850,
+          "optionName" : "Additional Aggressor",
+          "autoAddDictionary" : {
+            "4851" : "1",
+            "4852" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4851,
+          "optionName" : "Auto boltstorm gauntlets",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4852,
+          "optionName" : "Fragstorm grenade launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4853,
+          "optionName" : "Flamestorm gauntlet",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 63.0,
+        "unitID" : 4849,
+        "autoAddDictionary" : {
+          "4851" : "3",
+          "4852" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[4]Servitors",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4855,
+          "optionName" : "Servo-arm",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4856,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4857,
+          "optionName" : "Plasma cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4858,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 20.0,
+        "unitID" : 4854,
+        "autoAddDictionary" : {
+          "4855" : "4"
+        },
+        "startingModels" : 4,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Wulfen Dreadnought",
+        "listOfOptions" : [ {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4860,
+          "optionName" : "Fenrisian great axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 45.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4861,
+          "optionName" : "Great wolf claw",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4862,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4863,
+          "optionName" : "Blizzard shield and storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4864,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 70.0,
+        "unitID" : 4859,
+        "autoAddDictionary" : {
+          "4860" : "1",
+          "4861" : "1",
+          "4862" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Great Company Ancient",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4866,
+          "optionName" : "Boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4867,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4868,
+          "optionName" : "$Melee Weapons Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4869,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 63.0,
+        "unitID" : 4865,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Primaris Ancient",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 69.0,
+        "unitID" : 4870,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Great Company Champion",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4873,
+          "optionName" : "Master-crafted power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4121,
+          "optionName" : "Combat shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 40.0,
+        "unitID" : 4871,
+        "autoAddDictionary" : {
+          "4121" : "1",
+          "4873" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Dreadnought",
+        "listOfOptions" : [ {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4877,
+          "optionName" : "Assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4878,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4879,
+          "optionName" : "Dreadnought combat weapon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4880,
+          "optionName" : "$Dreadnought Heavy Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4881,
+          "optionName" : "Missile launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4882,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 45.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4883,
+          "optionName" : "Great wolf claw",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 60.0,
+        "unitID" : 4876,
+        "autoAddDictionary" : {
+          "4877" : "1",
+          "4878" : "1",
+          "4879" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Wolf Guard Cataphractii Terminators",
+        "listOfOptions" : [ {
+          "optionCost" : 26.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4885,
+          "optionName" : "Additional Wolf Guard Cataphractii Terminator",
+          "autoAddDictionary" : {
+            "4886" : "1",
+            "4888" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4886,
+          "optionName" : "Combi-bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4887,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4888,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4889,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4890,
+          "optionName" : "Lightning claw(single)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4891,
+          "optionName" : "Chainfist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4892,
+          "optionName" : "Grenade Harness",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 130.0,
+        "unitID" : 4884,
+        "autoAddDictionary" : {
+          "4886" : "5",
+          "4887" : "1",
+          "4888" : "4"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Wolf Guard Tartaros Terminators",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4894,
+          "optionName" : "Combi-bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4895,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4896,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 23.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4897,
+          "optionName" : "Additional Wolf Guard Tartaros Terminator",
+          "autoAddDictionary" : {
+            "4894" : "1",
+            "4896" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4898,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4899,
+          "optionName" : "Reaper autocannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4900,
+          "optionName" : "Lightning claws(pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4901,
+          "optionName" : "Chainfist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4902,
+          "optionName" : "Plasma blaster",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4903,
+          "optionName" : "Volkite charger",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4904,
+          "optionName" : "Grenade Harness",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 115.0,
+        "unitID" : 4893,
+        "autoAddDictionary" : {
+          "4894" : "5",
+          "4895" : "1",
+          "4896" : "4"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Venerable Dreadnought",
+        "listOfOptions" : [ {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4906,
+          "optionName" : "Assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4907,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4908,
+          "optionName" : "Dreadnought combat weapon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4909,
+          "optionName" : "$Dreadnought Heavy Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4910,
+          "optionName" : "Missile launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4912,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 65.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4914,
+          "optionName" : "Fenrisian great axe and blizzard shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 45.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4109,
+          "optionName" : "Great wolf claw",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 80.0,
+        "unitID" : 4905,
+        "autoAddDictionary" : {
+          "4906" : "1",
+          "4907" : "1",
+          "4908" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Contemptor Dreadnought",
+        "listOfOptions" : [ {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4917,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4918,
+          "optionName" : "Combi-bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4919,
+          "optionName" : "Dreadnought combat weapon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4920,
+          "optionName" : "Kheres pattern assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 88.0,
+        "unitID" : 4915,
+        "autoAddDictionary" : {
+          "4917" : "1",
+          "4918" : "1",
+          "4919" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Redemptor Dreadnought",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4921,
+          "optionName" : "Heavy onslaught gatling cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4922,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4923,
+          "optionName" : "Two fragstorm grenade launchers",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4924,
+          "optionName" : "Onslaught gatling cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 31.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4925,
+          "optionName" : "Macro plasma incinerator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4926,
+          "optionName" : "Two storm bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4927,
+          "optionName" : "Icarus rocket pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 105.0,
+        "unitID" : 4916,
+        "autoAddDictionary" : {
+          "4921" : "1",
+          "4922" : "1",
+          "4923" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Land Speeders",
+        "listOfOptions" : [ {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4938,
+          "optionName" : "Additional Land Speeder",
+          "autoAddDictionary" : {
+            "4939" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4939,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4940,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4941,
+          "optionName" : "Assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4942,
+          "optionName" : "Heavy falmer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 38.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4943,
+          "optionName" : "Typhoon missile launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 50.0,
+        "unitID" : 4937,
+        "autoAddDictionary" : {
+          "4939" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[3]Inceptors",
+        "listOfOptions" : [ {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4945,
+          "optionName" : "Two assault bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 34.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4946,
+          "optionName" : "Two plasma exterminators",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4112,
+          "optionName" : "Additional Inceptor",
+          "autoAddDictionary" : {
+            "4945" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 75.0,
+        "unitID" : 4944,
+        "autoAddDictionary" : {
+          "4945" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Wolf Scout Bikers",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4949,
+          "optionName" : "Twin boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4950,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4951,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4952,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4953,
+          "optionName" : "Astartes grenade launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 31.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4954,
+          "optionName" : "Additional Wolf Scout Bike",
+          "autoAddDictionary" : {
+            "4949" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 93.0,
+        "unitID" : 4948,
+        "autoAddDictionary" : {
+          "4949" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Hellblasters",
+        "listOfOptions" : [ {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4979,
+          "optionName" : "Additional Hellblaster",
+          "autoAddDictionary" : {
+            "4980" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4980,
+          "optionName" : "Plasma incinerator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4981,
+          "optionName" : "Assault plasma incinerator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4982,
+          "optionName" : "Heavy plasma incinerator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4983,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 90.0,
+        "unitID" : 4960,
+        "autoAddDictionary" : {
+          "4980" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Hunter",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4984,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4985,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 80.0,
+        "unitID" : 4961,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Stalker",
+        "listOfOptions" : [ {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4986,
+          "optionName" : "Two icarus stormcannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4987,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4988,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 75.0,
+        "unitID" : 4962,
+        "autoAddDictionary" : {
+          "4986" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Whirlwind",
+        "listOfOptions" : [ {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4989,
+          "optionName" : "Whirlwind vengeance launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4990,
+          "optionName" : "Whirlwind castellan launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4991,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4992,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 70.0,
+        "unitID" : 4963,
+        "autoAddDictionary" : {
+          "4989" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Predator",
+        "listOfOptions" : [ {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4993,
+          "optionName" : "Predator autocannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4994,
+          "optionName" : "Twin lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4995,
+          "optionName" : "Two heavy bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4996,
+          "optionName" : "Two lascannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4997,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4998,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 90.0,
+        "unitID" : 4964,
+        "autoAddDictionary" : {
+          "4993" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Vindicator",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4999,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5000,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 125.0,
+        "unitID" : 4965,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Land Raider",
+        "listOfOptions" : [ {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5001,
+          "optionName" : "Twin heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 80.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5002,
+          "optionName" : "Two twin lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5003,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5004,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5005,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 200.0,
+        "unitID" : 4966,
+        "autoAddDictionary" : {
+          "5001" : "1",
+          "5002" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Land Raider Crusader",
+        "listOfOptions" : [ {
+          "optionCost" : 44.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5006,
+          "optionName" : "Twin assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5007,
+          "optionName" : "Two hurricane bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5008,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5009,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5010,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 200.0,
+        "unitID" : 4967,
+        "autoAddDictionary" : {
+          "5006" : "1",
+          "5007" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Land Raider Redeemer",
+        "listOfOptions" : [ {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5011,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5012,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5013,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 44.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5014,
+          "optionName" : "Twin assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 60.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5015,
+          "optionName" : "Two flamestorm cannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 180.0,
+        "unitID" : 4968,
+        "autoAddDictionary" : {
+          "5014" : "1",
+          "5015" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Rhino",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5016,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5017,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 70.0,
+        "unitID" : 4969,
+        "autoAddDictionary" : {
+          "5016" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Razorback",
+        "listOfOptions" : [ {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5018,
+          "optionName" : "Twin heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5019,
+          "optionName" : "Twin lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 44.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5020,
+          "optionName" : "Twin assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5021,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5022,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 70.0,
+        "unitID" : 4970,
+        "autoAddDictionary" : {
+          "5018" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Drop Pod",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5023,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5024,
+          "optionName" : "Deathwind launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 63.0,
+        "unitID" : 4971,
+        "autoAddDictionary" : {
+          "5023" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Land Speeder Storm",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5025,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5026,
+          "optionName" : "Cerberus launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 75.0,
+        "unitID" : 4972,
+        "autoAddDictionary" : {
+          "5025" : "1",
+          "5026" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Repulsor",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5027,
+          "optionName" : "Heavy onslaught gatling cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5028,
+          "optionName" : "Twin heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5029,
+          "optionName" : "Ironhail heavy stubber",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5030,
+          "optionName" : "Icarus ironhail heavy stubber",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5031,
+          "optionName" : "Krakstorm grenade launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5032,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5033,
+          "optionName" : "Auto launchers",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5034,
+          "optionName" : "Twin lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5035,
+          "optionName" : "Las-talon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5036,
+          "optionName" : "Onslaught gatling cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5037,
+          "optionName" : "Fragstorm grenade launchers",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5038,
+          "optionName" : "Icarus rocket pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 185.0,
+        "unitID" : 4973,
+        "autoAddDictionary" : {
+          "5030" : "1",
+          "5031" : "2",
+          "5032" : "2",
+          "5033" : "1",
+          "5027" : "1",
+          "5028" : "1",
+          "5029" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Stormhawk Interceptor",
+        "listOfOptions" : [ {
+          "optionCost" : 44.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5039,
+          "optionName" : "Two assault cannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5040,
+          "optionName" : "Two heavy bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5041,
+          "optionName" : "Icarus stormcannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 24.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5042,
+          "optionName" : "Skyhammer missile launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 38.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5043,
+          "optionName" : "Typhoon missile launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5044,
+          "optionName" : "Las-talon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Flyers",
+        "unitCost" : 85.0,
+        "unitID" : 4974,
+        "autoAddDictionary" : {
+          "5041" : "1",
+          "5039" : "1",
+          "5040" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wolf Lord On Thunderwolf",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 7267,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 7377,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 7379,
+          "optionName" : "$Melee Weapons Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 7542,
+          "optionName" : "Boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 7610,
+          "optionName" : "$Combi-Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 118.0,
+        "unitID" : 6960,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      } ],
+      "listOfEquipmentOptions" : [ {
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4032,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4033,
+          "optionName" : "Combi-plasma",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4034,
+          "optionName" : "Combi-flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4035,
+          "optionName" : "Combi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Combi-Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4037,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4038,
+          "optionName" : "Frost Axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4043,
+          "optionName" : "Frost sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4049,
+          "optionName" : "Lightenng claw (pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4050,
+          "optionName" : "Lightenng claw (single)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4060,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4061,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4065,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4069,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4074,
+          "optionName" : "Thunder Hammer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4080,
+          "optionName" : "Wolf Claw (single)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4081,
+          "optionName" : "Wolf Claw (pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Melee Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4087,
+          "optionName" : "Flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4088,
+          "optionName" : "Plasma gun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4089,
+          "optionName" : "Meltagun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Special Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4090,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4091,
+          "optionName" : "Lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4092,
+          "optionName" : "Missile launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4093,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4094,
+          "optionName" : "Plasma cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Heavy Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4039,
+          "optionName" : "Frost Axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4044,
+          "optionName" : "Frost sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4051,
+          "optionName" : "Lightenng claw (single)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4054,
+          "optionName" : "Lightenng claw (pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4059,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4062,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4066,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4070,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4073,
+          "optionName" : "Thunder Hammer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4079,
+          "optionName" : "Wolf Claw (single)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4082,
+          "optionName" : "Wolf Claw (pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4086,
+          "optionName" : "Chainfist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Terminator Melee Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4040,
+          "optionName" : "Frost Axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4042,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4045,
+          "optionName" : "Frost sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4052,
+          "optionName" : "Lightenng claw (single)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4055,
+          "optionName" : "Lightenng claw (pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4058,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4063,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4067,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4071,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4075,
+          "optionName" : "Thunder Hammer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4078,
+          "optionName" : "Wolf Claw (single)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4083,
+          "optionName" : "Wolf Claw (pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Melee Weapons Characters"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4041,
+          "optionName" : "Frost Axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4046,
+          "optionName" : "Frost sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4053,
+          "optionName" : "Lightenng claw (single)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4056,
+          "optionName" : "Lightenng claw (pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4057,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4064,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4068,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4072,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4076,
+          "optionName" : "Thunder Hammer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4077,
+          "optionName" : "Wolf Claw (single)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4084,
+          "optionName" : "Wolf Claw (pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4085,
+          "optionName" : "Chainfist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Terminator Melee Weapons Characters"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4769,
+          "optionName" : "Assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4770,
+          "optionName" : "Cyclone missile launcher and storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4771,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Terminator Heavy Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4772,
+          "optionName" : "Heavy plasma cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4773,
+          "optionName" : "Helfrost cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4774,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4775,
+          "optionName" : "Twin lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Dreadnought Heavy Weapons"
+      } ],
+      "armyName" : "Space Wolves",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "HQ", "Elites", "Troops", "Fast Attack", "Heavy Support", "Flyers", "Dedicated Transport", "Lords of War", "Fortification" ],
+    "listOfEquipmentOptions" : null,
+    "listOfCurrencies" : [ ]
+  } ]
+}

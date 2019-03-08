@@ -1,0 +1,187 @@
+{
+  "games" : [ {
+    "gameName" : "Warhammer 40K 8th Edition",
+    "armies" : [ {
+      "listOfRestrictions" : null,
+      "listOfUnits" : [ {
+        "unitName" : "Primaris Psyker",
+        "listOfOptions" : [ {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4392,
+          "optionName" : "Force stave",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 28.0,
+        "unitID" : 4385,
+        "autoAddDictionary" : {
+          "4385" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Wyrdvane Psykers",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4393,
+          "optionName" : "Additional Wyrdvane Psyker",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 24.0,
+        "unitID" : 4386,
+        "autoAddDictionary" : { },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Astropath",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4394,
+          "optionName" : "Telepathica Stave",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4395,
+          "optionName" : "Laspistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 15.0,
+        "unitID" : 4387,
+        "autoAddDictionary" : {
+          "4394" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Prosecutors",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4396,
+          "optionName" : "Additional Prosecutor",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 50.0,
+        "unitID" : 4388,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Vigilators",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4397,
+          "optionName" : "Additional Vigilator",
+          "autoAddDictionary" : {
+            "4768" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4768,
+          "optionName" : "Executioner greatblade",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 50.0,
+        "unitID" : 4389,
+        "autoAddDictionary" : {
+          "4768" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Witchseekers",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4398,
+          "optionName" : "Additional Witchseeker",
+          "autoAddDictionary" : {
+            "4399" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4399,
+          "optionName" : "Flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 50.0,
+        "unitID" : 4390,
+        "autoAddDictionary" : {
+          "4399" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Null-Maiden Rhino",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4400,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4401,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 70.0,
+        "unitID" : 4391,
+        "autoAddDictionary" : {
+          "4400" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      } ],
+      "listOfEquipmentOptions" : null,
+      "armyName" : "Adeptus Astra Telepathica",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "HQ", "Elites", "Troops", "Fast Attack", "Heavy Support", "Flyers", "Dedicated Transport", "Lords of War", "Fortification" ],
+    "listOfEquipmentOptions" : null,
+    "listOfCurrencies" : [ ]
+  } ]
+}

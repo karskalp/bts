@@ -1,0 +1,3247 @@
+{
+  "games" : [ {
+    "gameName" : "Warhammer 40K 8th Edition",
+    "armies" : [ {
+      "listOfRestrictions" : null,
+      "listOfUnits" : [ {
+        "unitName" : "Commander Shadowsun",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3822,
+          "optionName" : "MV62 Command-link Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3823,
+          "optionName" : "MV52 Shield Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "3569" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Commander Shadowsun",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 3,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3822", "3823" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many MV62 Command-link drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3822" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many MV52 Shild Drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3823" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 110.0,
+        "unitID" : 3569,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Commander Farsight",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "3570" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Commander Farsight",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 125.0,
+        "unitID" : 3570,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Commander In XV8 Crisis Battlesuit",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3824,
+          "optionName" : "Burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3825,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3826,
+          "optionName" : "$Ranged Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3827,
+          "optionName" : "$Support Systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3828,
+          "optionName" : "XV8-02 Crisis Iridium Battlesuit",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3835,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many tactical drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Tactical Drones" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 72.0,
+        "unitID" : 3571,
+        "autoAddDictionary" : {
+          "3825" : "1",
+          "3824" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Commander in XV85 Enforcer Battlesuit",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3829,
+          "optionName" : "Burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3830,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3831,
+          "optionName" : "$Ranged Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3832,
+          "optionName" : "$Support Systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3836,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many tactical drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Tactical Drones" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 76.0,
+        "unitID" : 3596,
+        "autoAddDictionary" : {
+          "3829" : "1",
+          "3830" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Commander in XV86 Coldstar Battlesuit",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3837,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3838,
+          "optionName" : "High-output burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3839,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3840,
+          "optionName" : "$Ranged Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3841,
+          "optionName" : "$Support Systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many tactical drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Tactical Drones" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 90.0,
+        "unitID" : 3597,
+        "autoAddDictionary" : {
+          "3838" : "1",
+          "3839" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Aun'va",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3842,
+          "optionName" : "Ethereal Guard",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "3598" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Aun'va.",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have two ethereal guard.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3842" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 85.0,
+        "unitID" : 3598,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Aun'shi",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "3599" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Aun'shi.",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 60.0,
+        "unitID" : 3599,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Ethereal",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3843,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3844,
+          "optionName" : "Equalizers",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3845,
+          "optionName" : "Hover Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many tactical drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Tactical Drones" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many equalizers.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3844" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many hover drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3845" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 45.0,
+        "unitID" : 3600,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Cadre Fireblade",
+        "listOfOptions" : [ {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3846,
+          "optionName" : "Markerlight",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3847,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one markerlight.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3846" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many tactical drones. ",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Tactical Drones" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 39.0,
+        "unitID" : 3601,
+        "autoAddDictionary" : {
+          "3846" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Darkstrider",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "3602" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Darkstrider.",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one markerlight.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3846" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 45.0,
+        "unitID" : 3602,
+        "autoAddDictionary" : {
+          "3849" : "1",
+          "3850" : "2"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Longstrike",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3849,
+          "optionName" : "Railgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3850,
+          "optionName" : "2 MV1 Gun Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 35.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3851,
+          "optionName" : "Ion cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3852,
+          "optionName" : "Seeker missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3853,
+          "optionName" : "Two burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3854,
+          "optionName" : "Two smart missile system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one railgun or ion cannon.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3849", "3851" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a railgun or ion cannon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3849", "3851" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many seeker missiles.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3852" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many drones, burst cannons or missiles systems.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3850", "3853", "3854" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take drones, burst cannons or missile systems.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3850", "3853", "3854" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "listOfNamesOfUnitID" : [ "3603" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Longstrike. ",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 137.0,
+        "unitID" : 3603,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Breacher Team",
+        "listOfOptions" : [ {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3700,
+          "optionName" : "Additional Fire Warrior",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3753,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3754,
+          "optionName" : "MV36 Guardian Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3801,
+          "optionName" : "Markerlight",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3812,
+          "optionName" : "Pulse pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3855,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3856,
+          "optionName" : "Smart missile system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many fire warriors.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3700" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Troops",
+        "unitCost" : 35.0,
+        "unitID" : 3604,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Strike Team",
+        "listOfOptions" : [ {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3857,
+          "optionName" : "Additional Fire Warrior",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3858,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3859,
+          "optionName" : "Markerlight",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3860,
+          "optionName" : "Pulse pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3861,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3862,
+          "optionName" : "Smart missile system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3145,
+          "optionName" : "Pulse carbine",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 7,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many fire warriors.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3857" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Troops",
+        "unitCost" : 35.0,
+        "unitID" : 3605,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[10]Kroot Carnivores",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3863,
+          "optionName" : "Additional Kroot Carnivore",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 10,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many kroot carnivores.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3863" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Troops",
+        "unitCost" : 50.0,
+        "unitID" : 3606,
+        "autoAddDictionary" : { },
+        "startingModels" : 10,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Kroot Shaper",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 31.0,
+        "unitID" : 3607,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Krootox Riders",
+        "listOfOptions" : [ {
+          "optionCost" : 34.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3864,
+          "optionName" : "Additional Krootox Rider",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many krootox riders.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3864" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 34.0,
+        "unitID" : 3608,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]XV25 Stealth Battlesuits",
+        "listOfOptions" : [ {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3865,
+          "optionName" : "Additional Stealth Shas'ui",
+          "autoAddDictionary" : {
+            "3867" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3866,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3867,
+          "optionName" : "Burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3868,
+          "optionName" : "$Support Systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3869,
+          "optionName" : "Fusion blaster",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3870,
+          "optionName" : "Markerlight and target lock",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4744,
+          "optionName" : "Homing beacon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 3,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many stealth shas'ui",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3865" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 60.0,
+        "unitID" : 3609,
+        "autoAddDictionary" : {
+          "3867" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]XV8 Crisis Battlesuits",
+        "listOfOptions" : [ {
+          "optionCost" : 27.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3872,
+          "optionName" : "Additional Crisis Shas'ui",
+          "autoAddDictionary" : {
+            "3873" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3873,
+          "optionName" : "Burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3874,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3875,
+          "optionName" : "$Ranged Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3876,
+          "optionName" : "$Support Systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3877,
+          "optionName" : "XV8-02 Crisis Iridium Battlesuit",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 6,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many Crisis Shas'ui.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3872" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 81.0,
+        "unitID" : 3610,
+        "autoAddDictionary" : {
+          "3873" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[3]XV8 Crisis Bodyguards",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3878,
+          "optionName" : "Additional Crisis Bodyguard",
+          "autoAddDictionary" : {
+            "3879" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3879,
+          "optionName" : "Burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3880,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3881,
+          "optionName" : "$Ranged Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3882,
+          "optionName" : "$Support Systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3883,
+          "optionName" : "XV8-02 Crisis Iridium Battlesuit",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 6,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many crisis bodyguards.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3878" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 90.0,
+        "unitID" : 3611,
+        "autoAddDictionary" : {
+          "3879" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Firesight Marksman",
+        "listOfOptions" : [ {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3884,
+          "optionName" : "Markerlight",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3885,
+          "optionName" : "Pulse pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one markerlight and pulse pistol.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3884", "3885" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 21.0,
+        "unitID" : 3612,
+        "autoAddDictionary" : {
+          "3884" : "1",
+          "3885" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "XV95 Ghostkeel Battlesuit",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3886,
+          "optionName" : "Fusion collider",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3887,
+          "optionName" : "Two flamers",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3888,
+          "optionName" : "2 MV5 Stealth Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 32.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3889,
+          "optionName" : "Cyclic ion raker",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3890,
+          "optionName" : "Two burst cannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 36.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3891,
+          "optionName" : "Two fusion blasters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3892,
+          "optionName" : "$Support Systems Ghostkeel/Riptide",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a fusion collider or cyclic ion raker.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3886", "3889" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many fusion colliders or cyclic ion rakers.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3886", "3889" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many flamers, burst cannons or fusion blasters.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3887", "3890", "3891" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a set of flamers, burst cannons or fusion blasters.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3886", "3889" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many support systems.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Support Systems" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 70.0,
+        "unitID" : 3613,
+        "autoAddDictionary" : {
+          "3886" : "1",
+          "3887" : "1",
+          "3888" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "XV104 Riptide Battlesuit",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3893,
+          "optionName" : "$Support Systems Ghostkeel/Riptide",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 35.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3894,
+          "optionName" : "Heavy burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3895,
+          "optionName" : "Two smart missile systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3896,
+          "optionName" : "MV84 Shielded Missile Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3897,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3898,
+          "optionName" : "Two plasma rifles",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 36.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3899,
+          "optionName" : "Two fusion blasters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3900,
+          "optionName" : "Ion accelerator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many support systems.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Support Systems Ghostkeel/Riptide" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many heavy burst cannons or ion accelerators.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3894", "3900" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have a heavy burst cannon or ion accelerator.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3894", "3900" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have a set of smart missile systems, plasma rifles or fusion blasters.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3895", "3898", "3899" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many smart missile systems, plasma rifles or fusion blasters.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3895", "3898", "3899" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3896" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 185.0,
+        "unitID" : 3614,
+        "autoAddDictionary" : {
+          "3894" : "1",
+          "3895" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Pathfinder Team",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3902,
+          "optionName" : "Additional Pathfinder",
+          "autoAddDictionary" : {
+            "3903" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3903,
+          "optionName" : "Markerlight",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3904,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3905,
+          "optionName" : "MB3 Recon Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3906,
+          "optionName" : "Burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3907,
+          "optionName" : "MV31 Pulse Accelerator Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3908,
+          "optionName" : "MV33 Grav-inhibitor Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3909,
+          "optionName" : "Ion rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3910,
+          "optionName" : "Rail rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3911,
+          "optionName" : "Pulse pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many pathfinders.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3902" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 25.0,
+        "unitID" : 3615,
+        "autoAddDictionary" : {
+          "3903" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "TX4 Piranha",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3912,
+          "optionName" : "Additional TX4 Piranha",
+          "autoAddDictionary" : {
+            "3913" : "1",
+            "3914" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3913,
+          "optionName" : "2 MV1 Gun Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3914,
+          "optionName" : "Burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3915,
+          "optionName" : "Fusion blaster",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3916,
+          "optionName" : "Seeker missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 4,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many TX4 Piranhas.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3912" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 30.0,
+        "unitID" : 3616,
+        "autoAddDictionary" : {
+          "3913" : "1",
+          "3914" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[4]Vespid Stingwings",
+        "listOfOptions" : [ {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3917,
+          "optionName" : "Additional Vespid Stingwing",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 8,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many Vespid Stingwings.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3917" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 56.0,
+        "unitID" : 3617,
+        "autoAddDictionary" : { },
+        "startingModels" : 4,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[4]Kroot Hounds",
+        "listOfOptions" : [ {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3918,
+          "optionName" : "Additional Kroot Hound",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 8,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many Kroot Hounds.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3918" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 16.0,
+        "unitID" : 3618,
+        "autoAddDictionary" : { },
+        "startingModels" : 4,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "XV88 Broadside Battlesuits",
+        "listOfOptions" : [ {
+          "optionCost" : 35.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3919,
+          "optionName" : "Additional XV88 Broadside Battlesuit",
+          "autoAddDictionary" : {
+            "3920" : "1",
+            "3921" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 35.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3920,
+          "optionName" : "Heavy rail rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3921,
+          "optionName" : "Two smart missile systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3924,
+          "optionName" : "MV8 Missile Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3925,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3926,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3927,
+          "optionName" : "Two high-yield missiles pods",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3928,
+          "optionName" : "Two plasma rifles",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3929,
+          "optionName" : "Seeker missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3930,
+          "optionName" : "$Support Systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many broadside battlesuits.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3919" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 35.0,
+        "unitID" : 3619,
+        "autoAddDictionary" : {
+          "3920" : "1",
+          "3921" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "TX7 Hammerhead Gunship",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3931,
+          "optionName" : "Railgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3932,
+          "optionName" : "2 MV1 Gun Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3933,
+          "optionName" : "Two burst cannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3934,
+          "optionName" : "Two smart missile systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3935,
+          "optionName" : "Seeker missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 35.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3936,
+          "optionName" : "Ion cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a railgun or ion cannon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3931", "3936" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many railguns or ion cannons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3931", "3936" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take Mv1 gun drones, burst cannons or smart missile systems.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3932", "3933", "3934" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many MV1 gun drones, burst cannons or smart missile systems.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3932", "3933", "3934" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many seeker missiles.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3935" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 100.0,
+        "unitID" : 3620,
+        "autoAddDictionary" : {
+          "3931" : "1",
+          "3932" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "TX78 Sky Ray Gunship",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3937,
+          "optionName" : "Two markerlights",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3938,
+          "optionName" : "Six seeker missiles",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3939,
+          "optionName" : "2 MV1 Gun Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3940,
+          "optionName" : "Two burst cannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3941,
+          "optionName" : "Two smart missile systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have too markerlights and six seeker missiles.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3937", "3938" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many MV1 Gun Drones, burst cannons or smart missile systems.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3939", "3940", "3941" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take MV1 gun drones, burst cannons or smart missile systems.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 80.0,
+        "unitID" : 3621,
+        "autoAddDictionary" : {
+          "3937" : "1",
+          "3938" : "1",
+          "3939" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "TY7 Devilfish",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3942,
+          "optionName" : "Burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3943,
+          "optionName" : "2 MV1 Gun Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3944,
+          "optionName" : "Two smart missile systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3945,
+          "optionName" : "Seeker missile",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one burst cannon.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3942" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many MV1 gun drones or smart missile systems.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3943", "3944" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take MV1 gun drones or smart missile systems.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3943", "3944" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many seeker missiles.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3945" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 70.0,
+        "unitID" : 3622,
+        "autoAddDictionary" : {
+          "3942" : "1",
+          "3943" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "AX3 Razorshark Strike Fighter",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3946,
+          "optionName" : "Burst cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3947,
+          "optionName" : "Quad ion turret",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3948,
+          "optionName" : "Two seeker missiles",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3949,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one quad ion turret and two seeker missiles.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3947", "3948" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many burst cannons or missiles pods.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3946", "3949" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have a burst cannon or missile pod.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3946", "3949" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "Flyers",
+        "unitCost" : 72.0,
+        "unitID" : 3623,
+        "autoAddDictionary" : {
+          "3946" : "1",
+          "3947" : "1",
+          "3948" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "AX39 Sun Shark Bomber",
+        "listOfOptions" : [ {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3950,
+          "optionName" : "Markerlight",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3951,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3952,
+          "optionName" : "Two seeker missiles",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4745,
+          "optionName" : "2 MV17 Interceptor Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have a markerlight and two seeker missiles.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3950", "3952" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many missile pods.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3951" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have at least one missile pod.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3951" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "Flyers",
+        "unitCost" : 90.0,
+        "unitID" : 3624,
+        "autoAddDictionary" : {
+          "3950" : "1",
+          "3951" : "1",
+          "3952" : "1",
+          "4745" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Tidewall Shieldline",
+        "listOfOptions" : [ {
+          "optionCost" : 70.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3953,
+          "optionName" : "Tidewall Defence Platform",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many tidewall defence platoforms.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3953" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fortification",
+        "unitCost" : 70.0,
+        "unitID" : 3625,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Tidewall Droneport",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3954,
+          "optionName" : "$Tactical Drones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 4,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many tactical drones.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Tactical Drones" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fortification",
+        "unitCost" : 70.0,
+        "unitID" : 3626,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Tidewall Gunrig",
+        "listOfOptions" : [ {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3955,
+          "optionName" : "Supremacy railgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one supremacy railgun.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3955" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fortification",
+        "unitCost" : 70.0,
+        "unitID" : 3627,
+        "autoAddDictionary" : {
+          "3955" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "KV128 Stormsurge",
+        "listOfOptions" : [ {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3956,
+          "optionName" : "Cluster rocket system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3957,
+          "optionName" : "Four destroyer missiles",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3958,
+          "optionName" : "Two flamers",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 43.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3959,
+          "optionName" : "Pulse blastcannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3960,
+          "optionName" : "Two smart missile systems",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3961,
+          "optionName" : "Two burst cannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3962,
+          "optionName" : "Two airbursting fragmentation projectors",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3963,
+          "optionName" : "Pulse driver cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3964,
+          "optionName" : "$Support Systems Stormsurge",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 3,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many support systems.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Support Systems Stormsurge" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many pulse weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3953", "3963" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a pulse weapon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3953", "3963" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many flamers burst cannons or airbursting fragmentation projectors.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3958", "3961", "3962" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take flamers, burst cannons or airbursting fragmentation projectors.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "3958", "3961", "3962" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one cluster rocket system, four destroyer missiles and two smart missile systems.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "3956", "3957", "3960" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Lords of War",
+        "unitCost" : 180.0,
+        "unitID" : 3628,
+        "autoAddDictionary" : {
+          "3957" : "1",
+          "3958" : "1",
+          "3959" : "1",
+          "3960" : "1",
+          "3956" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Tactical Drones",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3967,
+          "optionName" : "MV1 Gun Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3968,
+          "optionName" : "MV4 Shield Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3969,
+          "optionName" : "MV7 Marker Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3970,
+          "optionName" : "Markerlight",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 0.0,
+        "unitID" : 3629,
+        "autoAddDictionary" : { },
+        "startingModels" : 0,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]MV71 Sniper Drone",
+        "listOfOptions" : [ {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3971,
+          "optionName" : "Additional Sniper Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 54.0,
+        "unitID" : 3630,
+        "autoAddDictionary" : { },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "The Eight",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "Lords of War",
+        "unitCost" : 1120.0,
+        "unitID" : 5071,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      } ],
+      "listOfEquipmentOptions" : [ {
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3562,
+          "optionName" : "Airbursting fragmentation projector",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3563,
+          "optionName" : "Burst Cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3564,
+          "optionName" : "Cyclic ion blaster",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3565,
+          "optionName" : "Flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3566,
+          "optionName" : "Fusion blaster",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3567,
+          "optionName" : "Missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3568,
+          "optionName" : "Plasma rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Ranged Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3572,
+          "optionName" : "Advanced targeting system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3575,
+          "optionName" : "Counterfire defence system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3578,
+          "optionName" : "Drone controller",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3581,
+          "optionName" : "Early warning override",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3584,
+          "optionName" : "Multi-tracker",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3587,
+          "optionName" : "Shield generator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3590,
+          "optionName" : "Target lock",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3593,
+          "optionName" : "Velocity tracker",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Support Systems"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3573,
+          "optionName" : "Advanced targeting system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3576,
+          "optionName" : "Counterfire defence system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3579,
+          "optionName" : "Drone controller",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3582,
+          "optionName" : "Early warning override",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3585,
+          "optionName" : "Multi-tracker",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3589,
+          "optionName" : "Shield generator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3591,
+          "optionName" : "Target lock",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3594,
+          "optionName" : "Velocity tracker",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Support Systems Stormsurge"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3574,
+          "optionName" : "Advanced targeting system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3577,
+          "optionName" : "Counterfire defence system",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3580,
+          "optionName" : "Drone controller",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3583,
+          "optionName" : "Early warning override",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3586,
+          "optionName" : "Multi-tracker",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3588,
+          "optionName" : "Shield generator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3592,
+          "optionName" : "Target lock",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3595,
+          "optionName" : "Velocity tracker",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Support Systems Ghostkeel/Riptide"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3833,
+          "optionName" : "MV1 Gun Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3965,
+          "optionName" : "MV4 Shield Drone",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3966,
+          "optionName" : "MV7 Marker Drone",
+          "autoAddDictionary" : {
+            "3966" : "1"
+          },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4141,
+          "optionName" : "Markerlight",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "equipmentName" : "$Tactical Drones"
+      } ],
+      "armyName" : "T'au Empire",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "HQ", "Elites", "Troops", "Fast Attack", "Heavy Support", "Flyers", "Dedicated Transport", "Lords of War", "Fortification" ],
+    "listOfEquipmentOptions" : null,
+    "listOfCurrencies" : [ ]
+  } ]
+}

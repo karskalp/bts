@@ -1,0 +1,4022 @@
+{
+  "games" : [ {
+    "gameName" : "Warhammer 40K 8th Edition",
+    "armies" : [ {
+      "listOfRestrictions" : null,
+      "listOfUnits" : [ {
+        "unitName" : "Watch Master",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 130.0,
+        "unitID" : 1225,
+        "autoAddDictionary" : null,
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Watch Captain Artemis",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "1226" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Watch Captain Artemis.",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 130.0,
+        "unitID" : 1226,
+        "autoAddDictionary" : null,
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Watch Captain",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1383,
+          "optionName" : "Master-crafted boltgun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1384,
+          "optionName" : "Relic blade",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1385,
+          "optionName" : "Xenophase blade",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1386,
+          "optionName" : "$Deathwatch Equipment One",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 19.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1387,
+          "optionName" : "Jump pack",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 751,
+          "optionName" : "$Deathwatch Equipment Characters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4677,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many melee weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1384", "1385" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many jump packs",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1387" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 74.0,
+        "unitID" : 1227,
+        "autoAddDictionary" : {
+          "1383" : "1",
+          "4677" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Watch Captain in Terminator Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1388,
+          "optionName" : "Relic blade",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1389,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1390,
+          "optionName" : "$Terminator Combi-Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1391,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1392,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1393,
+          "optionName" : "$Terminator Melee Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many ranged weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1389", "$Terminator Combi-Weapons" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one ranged weapon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1389", "$Terminator Combi-Weapons" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one melee weapon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1388", "1391", "1392", "$Terminator Melee Weapons" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many melee weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1388", "1391", "1392", "$Terminator Melee Weapons" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 95.0,
+        "unitID" : 1228,
+        "autoAddDictionary" : {
+          "1389" : "1",
+          "1388" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Primaris Watch Captain",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1394,
+          "optionName" : "Master-crafted auto bolt rifle",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1395,
+          "optionName" : "Master-crafted stalker bolt rifle",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1396,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1397,
+          "optionName" : "Power fist and plasma pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4676,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 78.0,
+        "unitID" : 1229,
+        "autoAddDictionary" : {
+          "4676" : "1",
+          "1394" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Librarian",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1398,
+          "optionName" : "Force stave",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1399,
+          "optionName" : "$Pistols",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1400,
+          "optionName" : "Force sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1401,
+          "optionName" : "Force axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 24.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1402,
+          "optionName" : "Jump pack",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4675,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many ranged weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Pistols" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many force weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1398", "1400", "1401" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a forced weapons.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1398", "1400", "1401" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many jump packs.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1402" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 88.0,
+        "unitID" : 1230,
+        "autoAddDictionary" : {
+          "1398" : "1",
+          "4675" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Librarian in Terminator Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1403,
+          "optionName" : "Force stave",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1404,
+          "optionName" : "$Terminator Combi-Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1405,
+          "optionName" : "Force sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1406,
+          "optionName" : "Force axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many force weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1430", "1405", "1406" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a force weapon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1430", "1405", "1406" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many combi-weapons",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Terminator Combi-Weapons" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 102.0,
+        "unitID" : 1231,
+        "autoAddDictionary" : {
+          "1403" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Primaris Librarian",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1407,
+          "optionName" : "Force sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4674,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many force swords",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1407" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a force sword.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1407" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 93.0,
+        "unitID" : 1232,
+        "autoAddDictionary" : {
+          "4674" : "1",
+          "1407" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Chaplain",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1408,
+          "optionName" : "$Pistols",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1409,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1410,
+          "optionName" : "Jump pack",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4673,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many pistols",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Pistols" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many power fists.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1409" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many jump packs.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1410" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 72.0,
+        "unitID" : 1233,
+        "autoAddDictionary" : {
+          "4673" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Chaplain In Terminator Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1411,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1412,
+          "optionName" : "$Terminator Combi-Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a ranged weapon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many ranged weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1411", "$Terminator Combi-Weapons" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 90.0,
+        "unitID" : 1234,
+        "autoAddDictionary" : {
+          "1411" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Primaris Chaplain",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1413,
+          "optionName" : "Absolvor bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take an absolvor bolt pistol",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many ranged weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1413" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 77.0,
+        "unitID" : 1235,
+        "autoAddDictionary" : {
+          "1413" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Veterans",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 752,
+          "optionName" : "Watch Sergeant",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1019,
+          "optionName" : "Black Shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1027,
+          "optionName" : "Additional Veteran",
+          "autoAddDictionary" : {
+            "4643" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3411,
+          "optionName" : "Additional Biker",
+          "autoAddDictionary" : {
+            "4628" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 23.0,
+          "listOfRestrictions" : null,
+          "optionID" : 3494,
+          "optionName" : "Additional Terminator",
+          "autoAddDictionary" : {
+            "4621" : "1",
+            "4627" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4607,
+          "optionName" : "Additional Vanguard Veteran",
+          "autoAddDictionary" : {
+            "4644" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4621,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4627,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4628,
+          "optionName" : "Twin boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4629,
+          "optionName" : "$Deathwatch Equipment One",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4630,
+          "optionName" : "$Deathwatch Equipment Two",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4631,
+          "optionName" : "$Heavy Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4632,
+          "optionName" : "Heavy thunder hammer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4633,
+          "optionName" : "Combat shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4634,
+          "optionName" : "$Vanguard Equipment",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4635,
+          "optionName" : "$Terminator Heavy Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4636,
+          "optionName" : "$Terminator Melee Weapons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4637,
+          "optionName" : "Lightning claw(pair)",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4638,
+          "optionName" : "Thunder hammer and storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4639,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4640,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4641,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4642,
+          "optionName" : "Deathwatch teleport homer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4643,
+          "optionName" : "Boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4644,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Troops",
+        "unitCost" : 70.0,
+        "unitID" : 1236,
+        "autoAddDictionary" : {
+          "4643" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Intercessors",
+        "listOfOptions" : [ {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4645,
+          "optionName" : "Additional Intercessor",
+          "autoAddDictionary" : {
+            "4650" : "1",
+            "4651" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4646,
+          "optionName" : "Additional Hellblaster",
+          "autoAddDictionary" : {
+            "4651" : "1",
+            "4656" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4647,
+          "optionName" : "Additional Inceptor",
+          "autoAddDictionary" : {
+            "4657" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4648,
+          "optionName" : "Additional Reiver",
+          "autoAddDictionary" : {
+            "4658" : "1",
+            "4659" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4649,
+          "optionName" : "Additional Aggressor",
+          "autoAddDictionary" : {
+            "4660" : "1",
+            "4661" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4650,
+          "optionName" : "Bolt rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4651,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4655,
+          "optionName" : "Boltgun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4656,
+          "optionName" : "Plasma incinerator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4657,
+          "optionName" : "Two assault bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4658,
+          "optionName" : "Bolt carbine",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4659,
+          "optionName" : "Heavy bolt pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4660,
+          "optionName" : "Auto boltstorm gauntlets",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4661,
+          "optionName" : "Fragstorm grenade launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4662,
+          "optionName" : "Autobolt rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4663,
+          "optionName" : "Stalker bolt rifle",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4664,
+          "optionName" : "Auxiliary grenade launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4665,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4666,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4667,
+          "optionName" : "Assault plasma incinerator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4668,
+          "optionName" : "Heavy plasma incinerator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 34.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4669,
+          "optionName" : "Two plasma exterminators",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4670,
+          "optionName" : "Combat knife",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4671,
+          "optionName" : "Grapnel launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4672,
+          "optionName" : "Flamestorm gauntlets",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Troops",
+        "unitCost" : 85.0,
+        "unitID" : 1237,
+        "autoAddDictionary" : {
+          "4650" : "5",
+          "4651" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Primaris Apothecary",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1414,
+          "optionName" : "Absolvor bolt pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1414" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take an absolvor bolt pistol.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1414" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 68.0,
+        "unitID" : 1238,
+        "autoAddDictionary" : {
+          "1414" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Venerable Dreadnought",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1415,
+          "optionName" : "Dreadnought combat weapon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1416,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1417,
+          "optionName" : "Assault cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1418,
+          "optionName" : "$Dreadnought Heavy Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1419,
+          "optionName" : "Missile launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1420,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 80.0,
+        "unitID" : 1239,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Dreadnought",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1421,
+          "optionName" : "Dreadnought combat weapon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1422,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1423,
+          "optionName" : "Assault cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1424,
+          "optionName" : "$Dreadnought Heavy Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1425,
+          "optionName" : "Missile launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1426,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Elites",
+        "unitCost" : 60.0,
+        "unitID" : 1240,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Redemptor Dreadnought",
+        "listOfOptions" : [ {
+          "optionCost" : 36.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1427,
+          "optionName" : "Heavy onslught gatling cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1428,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1429,
+          "optionName" : "Two fragstorm grenade launchers",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1430,
+          "optionName" : "Onslaught gatling cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 31.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1431,
+          "optionName" : "Macro plasma incinerator",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1432,
+          "optionName" : "Two storm bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1433,
+          "optionName" : "Icarus rocket pod",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many icarus rocket pods",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1433" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 105.0,
+        "unitID" : 1241,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Terminators",
+        "listOfOptions" : [ {
+          "optionCost" : 23.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1434,
+          "optionName" : "Additional Terminator",
+          "autoAddDictionary" : {
+            "1436" : "1",
+            "1435" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1435,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1436,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1437,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1438,
+          "optionName" : "$Terminator Heavy Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1439,
+          "optionName" : "$Terminator Melee Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1440,
+          "optionName" : "Lightning claws(pair)",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1441,
+          "optionName" : "Thunder hammer and storm shield",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many terminators.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1434" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 3,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many heavy weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "$Terminator Heavy Weapons" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 115.0,
+        "unitID" : 1242,
+        "autoAddDictionary" : {
+          "1437" : "1",
+          "1436" : "4",
+          "1435" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Reivers",
+        "listOfOptions" : [ {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1442,
+          "optionName" : "Additional Reiver",
+          "autoAddDictionary" : {
+            "1445" : "1",
+            "1443" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1443,
+          "optionName" : "Bolt carbine",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1445,
+          "optionName" : "Heavy bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1446,
+          "optionName" : "Grapnel launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1447,
+          "optionName" : "Grav-chute",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4678,
+          "optionName" : "Combat knife",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many reivers.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1442" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 90.0,
+        "unitID" : 1243,
+        "autoAddDictionary" : {
+          "1445" : "5",
+          "1443" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Aggressors",
+        "listOfOptions" : [ {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1448,
+          "optionName" : "Additional Aggressor",
+          "autoAddDictionary" : {
+            "1450" : "1",
+            "1449" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1449,
+          "optionName" : "Auto boltstorm gauntlets",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1450,
+          "optionName" : "Fragstorm grenade launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1451,
+          "optionName" : "Flamestorm gauntlets",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 3,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many aggressors.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1448" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 63.0,
+        "unitID" : 1244,
+        "autoAddDictionary" : {
+          "1450" : "3",
+          "1449" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Vanguard Veterans",
+        "listOfOptions" : [ {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1452,
+          "optionName" : "Additional Vanguard Veteran",
+          "autoAddDictionary" : {
+            "1453" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1453,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1454,
+          "optionName" : "$Vanguard Equipment",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1455,
+          "optionName" : "Heavy thunder hammer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1456,
+          "optionName" : "Melta bombs",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many melta bombs.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1456" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many vanguard veterans.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1452" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 85.0,
+        "unitID" : 1245,
+        "autoAddDictionary" : {
+          "1453" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[3]Bikers",
+        "listOfOptions" : [ {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1457,
+          "optionName" : "Additional Biker",
+          "autoAddDictionary" : {
+            "1458" : "3"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1458,
+          "optionName" : "Twin boltgun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1459,
+          "optionName" : "$Deathwatch Equipment One",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1460,
+          "optionName" : "$Deathwatch Equipment Two",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1461,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1462,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1463,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1464,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1465,
+          "optionName" : "Deathwatch teleport homer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4679,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many deathwatch teleport homers.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1465" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 3,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many bikers.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1457" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 63.0,
+        "unitID" : 1246,
+        "autoAddDictionary" : {
+          "1458" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[3]Inceptors",
+        "listOfOptions" : [ {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1466,
+          "optionName" : "Additional Inceptor",
+          "autoAddDictionary" : {
+            "1467" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1467,
+          "optionName" : "Two assault bolters",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 34.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1468,
+          "optionName" : "Two plasma exterminators",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 3,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many inceptors.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1466" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1467", "1468" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a weapon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1467", "1468" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 75.0,
+        "unitID" : 1247,
+        "autoAddDictionary" : {
+          "1467" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Hellblasters",
+        "listOfOptions" : [ {
+          "optionCost" : 18.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1469,
+          "optionName" : "Additional Hellblaster",
+          "autoAddDictionary" : {
+            "1473" : "1",
+            "1470" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1470,
+          "optionName" : "Plasma incinerator",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1471,
+          "optionName" : "Assault plasma incinerator",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1472,
+          "optionName" : "Heavy plasma incinerator",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1473,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1474,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many hellblasters.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1469" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 90.0,
+        "unitID" : 1248,
+        "autoAddDictionary" : {
+          "1473" : "5",
+          "1470" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Land Raider",
+        "listOfOptions" : [ {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1475,
+          "optionName" : "Twin heavy bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 80.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1476,
+          "optionName" : "Two twin lascannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1477,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1478,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1479,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one twin heavy bolter.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one set of two lascannons.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one twin heavy bolter.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1475" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one set of two lascannons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1476" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one hunter-killer missile.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1477" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one storm bolter.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1478" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one multi-melta.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1479" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 200.0,
+        "unitID" : 1249,
+        "autoAddDictionary" : {
+          "1476" : "1",
+          "1475" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Land Raider Crusader",
+        "listOfOptions" : [ {
+          "optionCost" : 44.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1480,
+          "optionName" : "Twin assault cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1481,
+          "optionName" : "Two hurricane bolters",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1482,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1483,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1484,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one twin storm bolter.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one set of two lascannons.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many twin lascannons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1481" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many twin heavy bolter.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1480" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many hunter-killer missile",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1482" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many storm bolter.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1483" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many multi-meltas.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1484" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 200.0,
+        "unitID" : 1250,
+        "autoAddDictionary" : {
+          "1481" : "1",
+          "1480" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Land Raider Redeemer",
+        "listOfOptions" : [ {
+          "optionCost" : 44.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1485,
+          "optionName" : "Twin assault cannons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 60.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1486,
+          "optionName" : "Two flamestorm cannons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1487,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1488,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1489,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many assault cannons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1485" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many hurricane bolters.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1486" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many storm bolters",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1487" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many hunter-killer missiles.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1488" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many multi-meltas.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1489" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one twin heavy bolter.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1475" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one set of two flamestorm cannons.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1486" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 180.0,
+        "unitID" : 1251,
+        "autoAddDictionary" : {
+          "1486" : "1",
+          "1485" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Rhino",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1354,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1382,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take two storm bolters.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1354" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one storm bolter.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1382" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one hunter-killer missile.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1382" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 70.0,
+        "unitID" : 1252,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Razorback",
+        "listOfOptions" : [ {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1444,
+          "optionName" : "Twin heavy bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 44.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1490,
+          "optionName" : "Twin assault cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1491,
+          "optionName" : "Twin lascannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1492,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1493,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take either one twin heavy bolter, twin lascannon or twin assault cannon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1444", "1490", "1491" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take either one twin heavy bolter, twin lascannon or twin assault cannon.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1444", "1490", "1491" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one hunter-killer missile.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1492" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one storm bolter.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1493" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 70.0,
+        "unitID" : 1253,
+        "autoAddDictionary" : {
+          "1444" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Drop Pod",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1494,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1495,
+          "optionName" : "Deathwind launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You don't have enough weapons.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1494", "1495" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1494", "1495" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 63.0,
+        "unitID" : 1254,
+        "autoAddDictionary" : {
+          "1494" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Replusor",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1496,
+          "optionName" : "Heavy onslaught gatling cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1497,
+          "optionName" : "Twin heavy bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1498,
+          "optionName" : "Ironhail heavy stubber",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1499,
+          "optionName" : "Icarus ironhail heavy stubber",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1500,
+          "optionName" : "Two krakstorm grenade launchers",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1502,
+          "optionName" : "Two storm bolters",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1503,
+          "optionName" : "Twin lascannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1504,
+          "optionName" : "Las-talon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1505,
+          "optionName" : "Onslaught gatling cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1506,
+          "optionName" : "Two fragstorm grenade lanchers",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1507,
+          "optionName" : "Icarus rocket pod",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1508,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1509,
+          "optionName" : "Fragstorm grenade launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4680,
+          "optionName" : "Auto launchers",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 185.0,
+        "unitID" : 1255,
+        "autoAddDictionary" : {
+          "1502" : "1",
+          "4680" : "1",
+          "1500" : "1",
+          "1499" : "1",
+          "1498" : "1",
+          "1497" : "1",
+          "1496" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Corvus Blackstar",
+        "listOfOptions" : [ {
+          "optionCost" : 44.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1511,
+          "optionName" : "Twin assault cannons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 42.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1512,
+          "optionName" : "Two stormstrike missile launchers",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1513,
+          "optionName" : "Twin lascannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1514,
+          "optionName" : "Two blackstar rocket launchers",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1515,
+          "optionName" : "Hurricane bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1516,
+          "optionName" : "Infernum halo-launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1517,
+          "optionName" : "Auspex array",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take either twin assault cannons or twin lascannons.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1511", "1513" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take either twin assault cannons or twin lascannons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1511", "1513" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take either two storm strike missile launchers or two blackstar rocket launchers.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1514", "1512" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take either storm strike missile launchers or two blackstar rocket launchers.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1514", "1512" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one hurricane bolter.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1515" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take either one infernum halo-launcher or one auspex array.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "1516", "1517" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Flyers",
+        "unitCost" : 135.0,
+        "unitID" : 1256,
+        "autoAddDictionary" : {
+          "1512" : "1",
+          "1511" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      } ],
+      "listOfEquipmentOptions" : [ {
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1289,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1290,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1291,
+          "optionName" : "Grav-pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1292,
+          "optionName" : "Inferno pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1293,
+          "optionName" : "Hand flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1294,
+          "optionName" : "Lightning claw(single)",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1295,
+          "optionName" : "Lightning claw(pair)",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1296,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1297,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1298,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1299,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1300,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1301,
+          "optionName" : "Thunder hammer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Deathwatch Equipment One"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1315,
+          "optionName" : "Boltgun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1316,
+          "optionName" : "Combi-flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1317,
+          "optionName" : "Combi-grav",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1318,
+          "optionName" : "Combi-melta",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1319,
+          "optionName" : "Combi-plasma",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1320,
+          "optionName" : "Deathwatch shotgun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1321,
+          "optionName" : "Flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1322,
+          "optionName" : "Grav-gun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1323,
+          "optionName" : "Meltagun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1324,
+          "optionName" : "Plasma gun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1325,
+          "optionName" : "Stalker pattern boltgun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1326,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Deathwatch Equipment Two"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1302,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1303,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1304,
+          "optionName" : "Grav-pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1305,
+          "optionName" : "Inferno pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1306,
+          "optionName" : "Hand flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1307,
+          "optionName" : "Lightning claw(single)",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1308,
+          "optionName" : "Lightning claw(pair)",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1309,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1310,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1311,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1312,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1313,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1314,
+          "optionName" : "Thunder hammer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Deathwatch Equipment Characters"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1327,
+          "optionName" : "Assault cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1328,
+          "optionName" : "Heavy plasma cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1329,
+          "optionName" : "Twin lascannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Dreadnought Heavy Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1330,
+          "optionName" : "Deathwing frag cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1331,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1332,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1333,
+          "optionName" : "Infernus heavy bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1334,
+          "optionName" : "Missile launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Heavy Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1335,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1336,
+          "optionName" : "Grav-pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1337,
+          "optionName" : "Hand flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1338,
+          "optionName" : "Inferno pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1339,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Pistols"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1340,
+          "optionName" : "Combi-flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1341,
+          "optionName" : "Combi-grav",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1342,
+          "optionName" : "Combi-melta",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1343,
+          "optionName" : "Combi-plasma",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1344,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Terminator Combi-Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 11.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1345,
+          "optionName" : "Chainfist",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1346,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1347,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1348,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 23.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1349,
+          "optionName" : "Power fist and meltagun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "equipmentName" : "$Terminator Melee Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1350,
+          "optionName" : "Assault cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 42.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1351,
+          "optionName" : "Cyclone missile launcher & storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1352,
+          "optionName" : "Heavy flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Terminator Heavy Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1353,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1356,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1359,
+          "optionName" : "Grav-pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1360,
+          "optionName" : "Hand flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1363,
+          "optionName" : "Inferno pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1364,
+          "optionName" : "Lightning claw(single)",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1367,
+          "optionName" : "Lightning claw(pair)",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1368,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1371,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1372,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1375,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1376,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1379,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1380,
+          "optionName" : "Thunder Hammer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Vanguard Equipment"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1355,
+          "optionName" : "Bolt pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1357,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1358,
+          "optionName" : "Grav-pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1361,
+          "optionName" : "Hand flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1362,
+          "optionName" : "Inferno pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1365,
+          "optionName" : "Lightning claw(single)",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1366,
+          "optionName" : "Lightning claw(pair)",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1369,
+          "optionName" : "Plasma pistol",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1370,
+          "optionName" : "Power axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1373,
+          "optionName" : "Power fist",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1374,
+          "optionName" : "Power maul",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1377,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1378,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 21.0,
+          "listOfRestrictions" : null,
+          "optionID" : 1381,
+          "optionName" : "Thunder Hammer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Vanguard Equipment Characters"
+      } ],
+      "armyName" : "Deathwatch",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "HQ", "Elites", "Troops", "Fast Attack", "Heavy Support", "Flyers", "Dedicated Transport", "Lords of War", "Fortification" ],
+    "listOfEquipmentOptions" : null,
+    "listOfCurrencies" : [ ]
+  } ]
+}

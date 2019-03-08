@@ -1,0 +1,237 @@
+{
+  "games" : [ {
+    "gameName" : "Warhammer 40K 8th Edition",
+    "armies" : [ {
+      "listOfRestrictions" : null,
+      "listOfUnits" : [ {
+        "unitName" : "Renegade Knight",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5075,
+          "optionName" : "Reaper chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 35.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5076,
+          "optionName" : "Thunderstrike gauntlet",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5077,
+          "optionName" : "Heavy stubber",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5079,
+          "optionName" : "Twin Icarus autocannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 45.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5080,
+          "optionName" : "Stormspear rocket pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5081,
+          "optionName" : "Ironstorm missile pod",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 89.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5083,
+          "optionName" : "Avenger gatling cannon and heavy flamer",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 102.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5084,
+          "optionName" : "Rapid-fire battle cannon and heavy stubber",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 76.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5085,
+          "optionName" : "Thermal cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5086,
+          "optionName" : "Meltagun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Lords of War",
+        "unitCost" : 285.0,
+        "unitID" : 5072,
+        "autoAddDictionary" : {
+          "5075" : "1",
+          "5076" : "1",
+          "5077" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Renegade Knight Dominus",
+        "listOfOptions" : [ {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5087,
+          "optionName" : "Plasma decimator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5088,
+          "optionName" : "Volcano lance",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 24.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5089,
+          "optionName" : "Two shield breaker missiles",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5090,
+          "optionName" : "Two twin meltaguns",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 35.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5091,
+          "optionName" : "Twin siegebreaker cannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5092,
+          "optionName" : "Conflagration cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5093,
+          "optionName" : "Thundercoil harpoon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Lords of War",
+        "unitCost" : 500.0,
+        "unitID" : 5073,
+        "autoAddDictionary" : {
+          "5087" : "1",
+          "5088" : "1",
+          "5089" : "1",
+          "5090" : "1",
+          "5091" : "2"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Renegade Armiger",
+        "listOfOptions" : [ {
+          "optionCost" : 160.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5094,
+          "optionName" : "Additional Renegade Armiger",
+          "autoAddDictionary" : {
+            "5096" : "1",
+            "5095" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5095,
+          "optionName" : "Two Armiger autocannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5096,
+          "optionName" : "Heavy stubber",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5097,
+          "optionName" : "Thermal spear and reaper chain-cleaver",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5098,
+          "optionName" : "Melta gun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Lords of War",
+        "unitCost" : 160.0,
+        "unitID" : 5074,
+        "autoAddDictionary" : {
+          "5096" : "1",
+          "5095" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      } ],
+      "listOfEquipmentOptions" : null,
+      "armyName" : "Renegade Knights",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "HQ", "Elites", "Troops", "Fast Attack", "Heavy Support", "Flyers", "Dedicated Transport", "Lords of War", "Fortification" ],
+    "listOfEquipmentOptions" : null,
+    "listOfCurrencies" : [ ]
+  } ]
+}

@@ -1,0 +1,879 @@
+{
+  "games" : [ {
+    "gameName" : "Warhammer 40K 8th Edition",
+    "armies" : [ {
+      "listOfRestrictions" : null,
+      "listOfUnits" : [ {
+        "unitName" : "Captain-General Trajann Valoris",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2135" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Captain-General Trajann Valoris",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<=",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 185.0,
+        "unitID" : 2135,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Shield-Captain",
+        "listOfOptions" : [ {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2148,
+          "optionName" : "Guardian Spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2149,
+          "optionName" : "Sentinel blade",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2150,
+          "optionName" : "Castellan axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2151,
+          "optionName" : "Misericordia",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2152,
+          "optionName" : "Storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many misericordias.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2151" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many guardian spear, sentinel blades or castellan axe's.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2148", "2149", "2150" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a guardian spear, sentinel blade oe castellan axe.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2148", "2149", "2150" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 100.0,
+        "unitID" : 2136,
+        "autoAddDictionary" : {
+          "2148" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Shield-Captain in Allarus Terminator Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2153,
+          "optionName" : "Guardian spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2154,
+          "optionName" : "Castellan axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2155,
+          "optionName" : "Misericordia",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many misericordias.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2155" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many guardian spears or castellan axes.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2153", "2154" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take either a guardian spear or castellan axe.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2153", "2154" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 110.0,
+        "unitID" : 2137,
+        "autoAddDictionary" : {
+          "2153" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Shield-Captain on Dawneagle Jetbike",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2156,
+          "optionName" : "Hurricane bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2157,
+          "optionName" : "Salvo launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2158,
+          "optionName" : "Misericordia",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many misericordias.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2158" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many hurricane bolters or salvo launchers.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2156", "2157" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a hurricane bolter or salvo launcher.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2156", "2157" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 150.0,
+        "unitID" : 2138,
+        "autoAddDictionary" : {
+          "2156" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Custodian Guard",
+        "listOfOptions" : [ {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2159,
+          "optionName" : "Additional Custodian Guard",
+          "autoAddDictionary" : {
+            "2160" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2160,
+          "optionName" : "Guardian spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2161,
+          "optionName" : "Sentinel blade and storm shield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2162,
+          "optionName" : "Misericordia",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 7,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many custodian guards.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2159" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Troops",
+        "unitCost" : 120.0,
+        "unitID" : 2139,
+        "autoAddDictionary" : {
+          "2160" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Custodian Wardens",
+        "listOfOptions" : [ {
+          "optionCost" : 43.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2163,
+          "optionName" : "Additional Custodian Warden",
+          "autoAddDictionary" : {
+            "2166" : "1",
+            "2164" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2164,
+          "optionName" : "Castellan axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2165,
+          "optionName" : "Guardian spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2166,
+          "optionName" : "Misericordia",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 7,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many custodian wardens.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2163" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 129.0,
+        "unitID" : 2140,
+        "autoAddDictionary" : {
+          "2166" : "3",
+          "2164" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Vexilus Praetor in Allarus Terminator Armour",
+        "listOfOptions" : [ {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2167,
+          "optionName" : "Misericordia",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many misericordias.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2167" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 100.0,
+        "unitID" : 2142,
+        "autoAddDictionary" : {
+          "2168" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Vexilus Praetor",
+        "listOfOptions" : [ {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2168,
+          "optionName" : "Guardian spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2169,
+          "optionName" : "Castellan axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2170,
+          "optionName" : "Storm shield and misericordia",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2171,
+          "optionName" : "Misericordia",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take basic equipment",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2168", "2169", "2170" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2168", "2169", "2170" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 80.0,
+        "unitID" : 2143,
+        "autoAddDictionary" : null,
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Allarus Custodians",
+        "listOfOptions" : [ {
+          "optionCost" : 65.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2172,
+          "optionName" : "Additional Allarus Custodian",
+          "autoAddDictionary" : {
+            "2173" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2173,
+          "optionName" : "Castellan axe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2174,
+          "optionName" : "Guardian spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2175,
+          "optionName" : "Misericordia",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 7,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many allarus custodians.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2172" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 195.0,
+        "unitID" : 2144,
+        "autoAddDictionary" : {
+          "2173" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Venerable Contemptor Dreadnought",
+        "listOfOptions" : [ {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2176,
+          "optionName" : "Dreadnought combat weapon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 27.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2177,
+          "optionName" : "Multi-melta",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2178,
+          "optionName" : "Combi-bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2179,
+          "optionName" : "Kheres-pattern assault cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one dreadnought combat weapon and one combi-bolter.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "2176", "2178" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many heavy weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2177", "2179" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a heavy weapon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2177", "2179" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 90.0,
+        "unitID" : 2145,
+        "autoAddDictionary" : {
+          "2178" : "1",
+          "2177" : "1",
+          "2176" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[3]Vertus Praetors",
+        "listOfOptions" : [ {
+          "optionCost" : 80.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2180,
+          "optionName" : "Additional Vertus Praetor",
+          "autoAddDictionary" : {
+            "2181" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2181,
+          "optionName" : "Hurricane bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2182,
+          "optionName" : "Salvo launcher",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2183,
+          "optionName" : "Misericordia",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 7,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many vertus praetors.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2180" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 240.0,
+        "unitID" : 2146,
+        "autoAddDictionary" : {
+          "2181" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Venerable Land Raider",
+        "listOfOptions" : [ {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2184,
+          "optionName" : "Twin heavy bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 100.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2185,
+          "optionName" : "Two twin lascannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2186,
+          "optionName" : "Hunter-killer missile",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2187,
+          "optionName" : "Storm bolter",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take basic equipment.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "2184", "2185" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many hunter-killer missiles.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2186" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many storm bolters.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2187" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 217.0,
+        "unitID" : 2147,
+        "autoAddDictionary" : {
+          "2185" : "1",
+          "2184" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      } ],
+      "listOfEquipmentOptions" : null,
+      "armyName" : "Adeptus Custodes",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "HQ", "Elites", "Troops", "Fast Attack", "Heavy Support", "Flyers", "Dedicated Transport", "Lords of War", "Fortification" ],
+    "listOfEquipmentOptions" : null,
+    "listOfCurrencies" : [ ]
+  } ]
+}

@@ -1,0 +1,2648 @@
+{
+  "games" : [ {
+    "gameName" : "Warhammer 40K 8th Edition",
+    "armies" : [ {
+      "listOfRestrictions" : null,
+      "listOfUnits" : [ {
+        "unitName" : "Eldrad Ulthran",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2451" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Eldrad Ulthran.",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 135.0,
+        "unitID" : 2415,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Farseer",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2519,
+          "optionName" : "Singing spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many singing spears.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2519" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 110.0,
+        "unitID" : 2416,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Farseer Skyrunner",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2520,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2521,
+          "optionName" : "Singing spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one twin shuriken catapult",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "2520" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many singing spears.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2521" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 130.0,
+        "unitID" : 2417,
+        "autoAddDictionary" : {
+          "2520" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[2]Warlock Conclave",
+        "listOfOptions" : [ {
+          "optionCost" : 45.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2522,
+          "optionName" : "Additional Warlock",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2523,
+          "optionName" : "Singing spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 8,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many warlocks.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2522" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 90.0,
+        "unitID" : 2418,
+        "autoAddDictionary" : { },
+        "startingModels" : 2,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[2]Warlock Skyrunner Conclave",
+        "listOfOptions" : [ {
+          "optionCost" : 60.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2524,
+          "optionName" : "Additional Warlock Skyrunner",
+          "autoAddDictionary" : {
+            "2526" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2525,
+          "optionName" : "Singing spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2526,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 120.0,
+        "unitID" : 2419,
+        "autoAddDictionary" : {
+          "2526" : "2"
+        },
+        "startingModels" : 2,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Warlock",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2527,
+          "optionName" : "Singing spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many singing spears",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2527" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 55.0,
+        "unitID" : 2420,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Warlock Skyrunner",
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2528,
+          "optionName" : "Singing spear",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2529,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many singing spears.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2528" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one shuriken catapult",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "2529" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 65.0,
+        "unitID" : 2421,
+        "autoAddDictionary" : {
+          "2529" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Prince Yriel",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2422" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Prince Yriel.",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 70.0,
+        "unitID" : 2422,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Autarch",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2530,
+          "optionName" : "Star glaive",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2531,
+          "optionName" : "Forceshield",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have basic equipment.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "2530", "2531" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 65.0,
+        "unitID" : 2423,
+        "autoAddDictionary" : {
+          "2531" : "1",
+          "2530" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Autarch With Swooping Hawk Wings",
+        "listOfOptions" : [ {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2532,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2533,
+          "optionName" : "Forceshield",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4715,
+          "optionName" : "Fusion pistol",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take one of each basic equipment.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "2532", "2533" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 85.0,
+        "unitID" : 2424,
+        "autoAddDictionary" : {
+          "2533" : "1",
+          "2532" : "1",
+          "4715" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Autarch Skyrunner",
+        "listOfOptions" : [ {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2534,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2535,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2536,
+          "optionName" : "Laser lance",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2537,
+          "optionName" : "Fusion gun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one twin shuriken catapult.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "2535" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2534", "2536", "2537" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a weapon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2534", "2536", "2537" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 95.0,
+        "unitID" : 2425,
+        "autoAddDictionary" : {
+          "2535" : "1",
+          "2534" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Avatar Of Khaine",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2426" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Avatar of Khaine",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 220.0,
+        "unitID" : 2426,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Asurmen",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2427" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Asurmen",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 175.0,
+        "unitID" : 2427,
+        "autoAddDictionary" : null,
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Baharroth",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2428" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Baharroth",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 110.0,
+        "unitID" : 2428,
+        "autoAddDictionary" : null,
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Fuegan",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2429" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Fuegan",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 140.0,
+        "unitID" : 2429,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Jain Zar",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2430" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Jain Zar",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 115.0,
+        "unitID" : 2430,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Karandras",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2431" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Karandaras",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 125.0,
+        "unitID" : 2431,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Maugan Ra",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2432" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Maugan Ra",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 140.0,
+        "unitID" : 2432,
+        "autoAddDictionary" : null,
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Illic Nightspear",
+        "listOfOptions" : null,
+        "listOfRestrictions" : [ {
+          "listOfNamesOfUnitID" : [ "2433" ],
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only have one Illic Nightspear",
+          "nameOfCheck" : "checkUnitsInList",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "conditionalType" : "<",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 2,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "HQ",
+        "unitCost" : 80.0,
+        "unitID" : 2433,
+        "autoAddDictionary" : null,
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Spiritseer",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "HQ",
+        "unitCost" : 65.0,
+        "unitID" : 2434,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[10]Guardian Defenders",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2255,
+          "optionName" : "Additional Guardian",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2439,
+          "optionName" : "Heavy Weapon Platform",
+          "autoAddDictionary" : {
+            "2440" : "1"
+          },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2440,
+          "optionName" : "Shuriken Cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2515,
+          "optionName" : "$Heavy Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 10,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many guardian defenders.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2255" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Troops",
+        "unitCost" : 80.0,
+        "unitID" : 2435,
+        "autoAddDictionary" : { },
+        "startingModels" : 10,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[8]Storm Guardians",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2538,
+          "optionName" : "Additional Storm Guardian",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2539,
+          "optionName" : "Flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2540,
+          "optionName" : "Fusion gun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 4716,
+          "optionName" : "Chainsword",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 16,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many storm guardians.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2538" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many heavy weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2539", "2540" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Troops",
+        "unitCost" : 48.0,
+        "unitID" : 2436,
+        "autoAddDictionary" : { },
+        "startingModels" : 8,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Dire Avengers",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2541,
+          "optionName" : "Additional Dire Avenger",
+          "autoAddDictionary" : {
+            "2542" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 3.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2542,
+          "optionName" : "Avenger shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2543,
+          "optionName" : "Two avenger shuriken catapults",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2544,
+          "optionName" : "Shuriken pistol and power glaive",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2545,
+          "optionName" : "Shuriken pistol and diresword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2546,
+          "optionName" : "Shimmershield and power glaive",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many dire avengers",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2541" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "Your Exarch has too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2543", "2544", "2545", "2546" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Troops",
+        "unitCost" : 40.0,
+        "unitID" : 2437,
+        "autoAddDictionary" : {
+          "2542" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Rangers",
+        "listOfOptions" : [ {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2547,
+          "optionName" : "Additional Ranger",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many rangers",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2547" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Troops",
+        "unitCost" : 60.0,
+        "unitID" : 2438,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Howling Banshees",
+        "listOfOptions" : [ {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2548,
+          "optionName" : "Additional Howling Banshee",
+          "autoAddDictionary" : {
+            "2549" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2549,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2550,
+          "optionName" : "Executioner",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2551,
+          "optionName" : "Mirrorswords",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many howling banshee's.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2548" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "Your exarch has too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2550", "2551" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 45.0,
+        "unitID" : 2441,
+        "autoAddDictionary" : { },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Striking Scorpions",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2552,
+          "optionName" : "Additional Striking Scorpion",
+          "autoAddDictionary" : {
+            "2553" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 1.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2553,
+          "optionName" : "Scorpion chainsword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 9.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2554,
+          "optionName" : "Scorpion's claw",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2555,
+          "optionName" : "Biting blade",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many striking scorpions",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2552" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "Your exarch has too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2554", "2555" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 50.0,
+        "unitID" : 2442,
+        "autoAddDictionary" : {
+          "2553" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Fire Dragons",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2557,
+          "optionName" : "Additional Fire Dragon",
+          "autoAddDictionary" : {
+            "2558" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2558,
+          "optionName" : "Fusion gun",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 14.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2559,
+          "optionName" : "Dragon's breath flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2560,
+          "optionName" : "Firepike",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many fire dragons",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2557" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "Your exarch has too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2559", "2560" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 50.0,
+        "unitID" : 2443,
+        "autoAddDictionary" : {
+          "2558" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Wraithblades",
+        "listOfOptions" : [ {
+          "optionCost" : 29.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2561,
+          "optionName" : "Additional Wraithblade",
+          "autoAddDictionary" : {
+            "2562" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2562,
+          "optionName" : "Ghostswords",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2563,
+          "optionName" : "Ghostaxes and forceshield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many wraithblades.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2561" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 145.0,
+        "unitID" : 2444,
+        "autoAddDictionary" : {
+          "2562" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Wraithguard",
+        "listOfOptions" : [ {
+          "optionCost" : 23.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2565,
+          "optionName" : "Additional Wraithguard",
+          "autoAddDictionary" : {
+            "2566" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2566,
+          "optionName" : "Wraithcannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2567,
+          "optionName" : "D-scythe",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many wraithguards.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2565" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Elites",
+        "unitCost" : 115.0,
+        "unitID" : 2445,
+        "autoAddDictionary" : {
+          "2566" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Windriders",
+        "listOfOptions" : [ {
+          "optionCost" : 16.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2568,
+          "optionName" : "Additional Windrider",
+          "autoAddDictionary" : {
+            "2569" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2569,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2570,
+          "optionName" : "Scatter laser",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2571,
+          "optionName" : "Shuriken cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 6,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many windriders.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2568" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 48.0,
+        "unitID" : 2446,
+        "autoAddDictionary" : {
+          "2569" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Vypers",
+        "listOfOptions" : [ {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2572,
+          "optionName" : "Additional Vyper",
+          "autoAddDictionary" : {
+            "2574" : "1",
+            "2573" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2573,
+          "optionName" : "Shuriken cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2574,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2575,
+          "optionName" : "$Heavy Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many vypers",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2572" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 40.0,
+        "unitID" : 2447,
+        "autoAddDictionary" : {
+          "2574" : "1",
+          "2573" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[5]Swooping Hawks",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2576,
+          "optionName" : "Additional Swooping Hawk",
+          "autoAddDictionary" : {
+            "2577" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2577,
+          "optionName" : "Lasblaster",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2578,
+          "optionName" : "Hawk's talon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2579,
+          "optionName" : "Power sword",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many swooping hawks.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2576" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "Your exarch has too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2578", "2579" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 30.0,
+        "unitID" : 2448,
+        "autoAddDictionary" : {
+          "2577" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[5]Warp Spiders",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2580,
+          "optionName" : "Additional Warp Spider",
+          "autoAddDictionary" : {
+            "2581" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2581,
+          "optionName" : "Death spinner",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 4.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2583,
+          "optionName" : "Powerblades",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 5,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many warpsiders.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2580" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "Your exarch has too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2582", "2583" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 50.0,
+        "unitID" : 2449,
+        "autoAddDictionary" : {
+          "2581" : "5"
+        },
+        "startingModels" : 5,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "[3]Shining Spears",
+        "listOfOptions" : [ {
+          "optionCost" : 24.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2584,
+          "optionName" : "Additional Shining Spear",
+          "autoAddDictionary" : {
+            "2586" : "1",
+            "2585" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2585,
+          "optionName" : "Laser lance",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2586,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2587,
+          "optionName" : "Star lance",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2588,
+          "optionName" : "Paragon sabre",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 6,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many shining spears.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2584" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "Your exarch has too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "22587", "2588" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Fast Attack",
+        "unitCost" : 72.0,
+        "unitID" : 2450,
+        "autoAddDictionary" : {
+          "2586" : "3",
+          "2585" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "War Walkers",
+        "listOfOptions" : [ {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2589,
+          "optionName" : "Additional War Walker",
+          "autoAddDictionary" : {
+            "2590" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2590,
+          "optionName" : "Two shuriken cannons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2591,
+          "optionName" : "$Heavy Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many war walkers",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2589" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 40.0,
+        "unitID" : 2451,
+        "autoAddDictionary" : {
+          "2590" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Wraithlord",
+        "listOfOptions" : [ {
+          "optionCost" : 6.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2592,
+          "optionName" : "Flamer",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2593,
+          "optionName" : "Ghostglaive",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2594,
+          "optionName" : "$Heavy Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2592", "2593", "$Heavy Weapons" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 85.0,
+        "unitID" : 2452,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Support Weapons",
+        "listOfOptions" : [ {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2595,
+          "optionName" : "Additional Support Weapon",
+          "autoAddDictionary" : {
+            "2596" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2596,
+          "optionName" : "Shadow weaver",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 15.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2597,
+          "optionName" : "Vibro cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 45.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2598,
+          "optionName" : "D-cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many support weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2595" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 25.0,
+        "unitID" : 2453,
+        "autoAddDictionary" : {
+          "2596" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "[3]Dark Reapers",
+        "listOfOptions" : [ {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2599,
+          "optionName" : "Additional Dark Reaper",
+          "autoAddDictionary" : {
+            "2600" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 22.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2600,
+          "optionName" : "Reaper launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2601,
+          "optionName" : "Shuriken cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2602,
+          "optionName" : "Aeldari missile launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 27.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2603,
+          "optionName" : "Tempest launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 7,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many dark reapers.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2599" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 36.0,
+        "unitID" : 2454,
+        "autoAddDictionary" : {
+          "2600" : "3"
+        },
+        "startingModels" : 3,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Falcon",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2604,
+          "optionName" : "Shuriken cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2605,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2606,
+          "optionName" : "$Heavy Weapons",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2608,
+          "optionName" : "$Vehicle Equipment",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 110.0,
+        "unitID" : 2455,
+        "autoAddDictionary" : {
+          "2605" : "1",
+          "2604" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Night Spinner",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2609,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2610,
+          "optionName" : "Shuriken cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2611,
+          "optionName" : "$Vehicle Equipment",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2609", "2610" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You don't have enough weapons.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2609", "2610" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 110.0,
+        "unitID" : 2456,
+        "autoAddDictionary" : {
+          "2609" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Fire Prism",
+        "listOfOptions" : [ {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2612,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2613,
+          "optionName" : "Shuriken cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2614,
+          "optionName" : "$Vehicle Equipment",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a weapon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2612", "2613" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2612", "2613" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Heavy Support",
+        "unitCost" : 155.0,
+        "unitID" : 2457,
+        "autoAddDictionary" : {
+          "2612" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wave Serpent",
+        "listOfOptions" : [ {
+          "optionCost" : 17.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2615,
+          "optionName" : "Twin shuriken cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 2.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2616,
+          "optionName" : "Twin shuriken catapult",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2617,
+          "optionName" : "Twin bright lance",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 12.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2618,
+          "optionName" : "Twin scatter laser",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 24.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2619,
+          "optionName" : "Twin starcannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2620,
+          "optionName" : "Twin aeldari missile launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2621,
+          "optionName" : "Shuriken cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 0.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2622,
+          "optionName" : "$Vehicle Equipment",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take a twin shuriken cannon,twin bright lance, twin scatter laser, twin starcannon or twin aeldari missile launcer.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2651", "2617", "2618", "2619", "2620" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one twin shuriken cannon,twin bright lance, twin scatter laser, twin starcannon or twin aeldari missile launcer.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2651", "2617", "2618", "2619", "2620" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You may only take one twin shurkien catapult or shuriken cannon.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2616", "2621" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must take twin shurkien catapult or shuriken cannon.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2616", "2621" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "Dedicated Transport",
+        "unitCost" : 120.0,
+        "unitID" : 2458,
+        "autoAddDictionary" : {
+          "2616" : "1",
+          "2615" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Crimson Hunter",
+        "listOfOptions" : [ {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2625,
+          "optionName" : "Two bright lances",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one set of two bright lances.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "2625" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Flyers",
+        "unitCost" : 120.0,
+        "unitID" : 2459,
+        "autoAddDictionary" : {
+          "2625" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Crimson Hunter Exarch",
+        "listOfOptions" : [ {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2635,
+          "optionName" : "Two bright lances",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 26.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2636,
+          "optionName" : "Two starcannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2635", "2636" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You don't have enough weapons.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2635", "2636" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        } ],
+        "unitCategory" : "Flyers",
+        "unitCost" : 135.0,
+        "unitID" : 2460,
+        "autoAddDictionary" : {
+          "2635" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Hemlock Wraithfighter",
+        "listOfOptions" : [ {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2637,
+          "optionName" : "Spirit stones",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You must have one spirit stone.",
+          "nameOfCheck" : "checkCurrentUnitUpgradeProperty",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "optionQuantity",
+          "listOfNamesOfUpgradeID" : [ "2637" ],
+          "conditionalType" : "==",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : 1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Flyers",
+        "unitCost" : 200.0,
+        "unitID" : 2461,
+        "autoAddDictionary" : {
+          "2638" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : null
+      }, {
+        "unitName" : "Wraithknight",
+        "listOfOptions" : [ {
+          "optionCost" : 100.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2638,
+          "optionName" : "Two heavy wraithcannons",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 50.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2640,
+          "optionName" : "Titanic ghostglaive and scattershield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 80.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2641,
+          "optionName" : "Suncannon and scattershield",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2642,
+          "optionName" : "Scatter laser",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2643,
+          "optionName" : "Shuriken cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 13.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2644,
+          "optionName" : "Starcannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "listOfRestrictions" : [ {
+          "numberOfTimesNeededToBeFound" : 1,
+          "maxAllowed" : -1,
+          "multiplier" : -1,
+          "errorMessage" : "You don't have enough primary weapons.",
+          "nameOfCheck" : "checkCurrentUnitMustHaveUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2638", "2640", "2641" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : ""
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 1,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many primary weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2638", "2640", "2641" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        }, {
+          "numberOfTimesNeededToBeFound" : -1,
+          "maxAllowed" : 2,
+          "multiplier" : -1,
+          "errorMessage" : "You have too many secondary weapons.",
+          "nameOfCheck" : "checkCurrentUnitNotTooManyUpgrades",
+          "globalProperty" : "",
+          "nameOfUpgradeProperty" : "",
+          "listOfNamesOfUpgradeID" : [ "2642", "2643", "2644" ],
+          "conditionalType" : "",
+          "upgradeID" : -1,
+          "nameOfUnitProperty" : "",
+          "additionalRestrictions" : null,
+          "numberNeeded" : -1,
+          "unitID" : -1,
+          "startingModels" : -1,
+          "nameOfCompareUpgradeProperty" : null
+        } ],
+        "unitCategory" : "Lords of War",
+        "unitCost" : 315.0,
+        "unitID" : 2462,
+        "autoAddDictionary" : {
+          "2638" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      } ],
+      "listOfEquipmentOptions" : [ {
+        "listOfOptions" : [ {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2406,
+          "optionName" : "Aeldari missile launcher",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2407,
+          "optionName" : "Bright lance",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 7.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2408,
+          "optionName" : "Scatter laser",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2409,
+          "optionName" : "Shuriken cannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 13.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2410,
+          "optionName" : "Starcannon",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Heavy Weapons"
+      }, {
+        "listOfOptions" : [ {
+          "optionCost" : 5.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2411,
+          "optionName" : "Crystal targeting matrix",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2412,
+          "optionName" : "Spirit stones",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2413,
+          "optionName" : "Star enginges",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        }, {
+          "optionCost" : 10.0,
+          "listOfRestrictions" : null,
+          "optionID" : 2414,
+          "optionName" : "Vectored engines",
+          "autoAddDictionary" : null,
+          "modelsAdded" : 0,
+          "listOfCurrencies" : null
+        } ],
+        "equipmentName" : "$Vehicle Equipment"
+      } ],
+      "armyName" : "Craftworlds",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "HQ", "Elites", "Troops", "Fast Attack", "Heavy Support", "Flyers", "Dedicated Transport", "Lords of War", "Fortification" ],
+    "listOfEquipmentOptions" : null,
+    "listOfCurrencies" : [ ]
+  } ]
+}

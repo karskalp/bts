@@ -1,0 +1,293 @@
+{
+  "games" : [ {
+    "gameName" : "Warhammer 40K 8th Edition",
+    "armies" : [ {
+      "listOfRestrictions" : null,
+      "listOfUnits" : [ {
+        "unitName" : "Aegis Defence Line",
+        "listOfOptions" : [ {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5108,
+          "optionName" : "Icarus lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5109,
+          "optionName" : "Quad-gun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 75.0,
+        "unitID" : 5078,
+        "autoAddDictionary" : {
+          "5108" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Imperial Bastion",
+        "listOfOptions" : [ {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5110,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5111,
+          "optionName" : "Icarus lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5112,
+          "optionName" : "Quad-gun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 160.0,
+        "unitID" : 5082,
+        "autoAddDictionary" : {
+          "5110" : "4"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Imperial Defence Line",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 85.0,
+        "unitID" : 5099,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Imperial Bunker",
+        "listOfOptions" : [ {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5113,
+          "optionName" : "Quad-gun",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 25.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5114,
+          "optionName" : "Icarus lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 100.0,
+        "unitID" : 5100,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Vengeance Weapon Batteries",
+        "listOfOptions" : [ {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5116,
+          "optionName" : "Punisher gatling cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 80.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5117,
+          "optionName" : "Additional Vengeance weapon battery",
+          "autoAddDictionary" : {
+            "5116" : "1"
+          },
+          "modelsAdded" : 1,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5118,
+          "optionName" : "Battle cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 70.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5119,
+          "optionName" : "Quad icarus lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 80.0,
+        "unitID" : 5101,
+        "autoAddDictionary" : {
+          "5116" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Firestorm Redoubt",
+        "listOfOptions" : [ {
+          "optionCost" : 70.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5120,
+          "optionName" : "Quad Icarus lascannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 30.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5121,
+          "optionName" : "Battle cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 20.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5122,
+          "optionName" : "Punisher gatling cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 160.0,
+        "unitID" : 5102,
+        "autoAddDictionary" : {
+          "5120" : "2"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Plasma Obliterator",
+        "listOfOptions" : [ {
+          "optionCost" : 40.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5123,
+          "optionName" : "Plasma obliterator",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 150.0,
+        "unitID" : 5103,
+        "autoAddDictionary" : {
+          "5123" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Macro-Cannon Aquila Strongpoint",
+        "listOfOptions" : [ {
+          "optionCost" : 80.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5124,
+          "optionName" : "Aquila macro-cannon",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5125,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 330.0,
+        "unitID" : 5104,
+        "autoAddDictionary" : {
+          "5124" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Vortex Missile Aquila Strongpoint",
+        "listOfOptions" : [ {
+          "optionCost" : 100.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5126,
+          "optionName" : "Vortex missile battery",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        }, {
+          "optionCost" : 8.0,
+          "listOfRestrictions" : null,
+          "optionID" : 5127,
+          "optionName" : "Heavy bolter",
+          "autoAddDictionary" : { },
+          "modelsAdded" : 0,
+          "listOfCurrencies" : { }
+        } ],
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 330.0,
+        "unitID" : 5105,
+        "autoAddDictionary" : {
+          "5126" : "1"
+        },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Void Shield Generator",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 190.0,
+        "unitID" : 5106,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      }, {
+        "unitName" : "Skyshield Landing Pad",
+        "listOfOptions" : null,
+        "listOfRestrictions" : null,
+        "unitCategory" : "Fortification",
+        "unitCost" : 110.0,
+        "unitID" : 5107,
+        "autoAddDictionary" : { },
+        "startingModels" : 1,
+        "listOfCurrencies" : { }
+      } ],
+      "listOfEquipmentOptions" : null,
+      "armyName" : "Fortifications",
+      "armyCategories" : [ ]
+    } ],
+    "gameCategories" : [ "HQ", "Elites", "Troops", "Fast Attack", "Heavy Support", "Flyers", "Dedicated Transport", "Lords of War", "Fortification" ],
+    "listOfEquipmentOptions" : null,
+    "listOfCurrencies" : [ ]
+  } ]
+}
