@@ -146,7 +146,7 @@
           "listOfRestrictions" : null,
           "optionID" : 376,
           "optionName" : "Storm bolter",
-          "autoAddDictionary" : null,
+          "autoAddDictionary" : "klw",
           "modelsAdded" : 0,
           "listOfCurrencies" : null
         }, {
