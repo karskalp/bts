@@ -132,7 +132,7 @@
         "startingModels" : 1,
         "listOfCurrencies" : { }
       }, {
-        "unitName" : @"Whatever dreadnought",
+        "unitName" : "Whatever dreadnought",
         "listOfOptions" : [ {
           "optionCost" : "iiuh",
           "listOfRestrictions" : null,
