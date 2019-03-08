@@ -7284,14 +7284,14 @@
           "optionCost" : 4.0,
           "listOfRestrictions" : null,
           "optionID" : 288,
-          "optionName" : "Power sword",
+          "optionName" : yuiyiuy,
           "autoAddDictionary" : null,
           "modelsAdded" : 0,
           "listOfCurrencies" : null
         }, {
           "optionCost" : 16.0,
           "listOfRestrictions" : null,
-          "optionID" : 289,
+          "optionID" : "jhjkh",
           "optionName" : "Thunder Hammer",
           "autoAddDictionary" : null,
           "modelsAdded" : 0,
