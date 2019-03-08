@@ -132,7 +132,7 @@
         "startingModels" : 1,
         "listOfCurrencies" : { }
       }, {
-        "unitName" : "Librarian Dreadnought",
+        "unitName" : null,
         "listOfOptions" : [ {
           "optionCost" : 30.0,
           "listOfRestrictions" : null,
