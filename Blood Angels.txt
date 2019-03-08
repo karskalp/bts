@@ -132,9 +132,9 @@
         "startingModels" : 1,
         "listOfCurrencies" : { }
       }, {
-        "unitName" : null,
+        "unitName" : @"Whatever dreadnought",
         "listOfOptions" : [ {
-          "optionCost" : 30.0,
+          "optionCost" : @"iiuh",
           "listOfRestrictions" : null,
           "optionID" : 374,
           "optionName" : "Furioso fist(single)",
