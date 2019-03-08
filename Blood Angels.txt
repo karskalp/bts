@@ -134,7 +134,7 @@
       }, {
         "unitName" : @"Whatever dreadnought",
         "listOfOptions" : [ {
-          "optionCost" : @"iiuh",
+          "optionCost" : "iiuh",
           "listOfRestrictions" : null,
           "optionID" : 374,
           "optionName" : "Furioso fist(single)",
