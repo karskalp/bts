@@ -24,7 +24,7 @@
           "startingModels" : -1,
           "nameOfCompareUpgradeProperty" : ""
         } ],
-        "unitCategory" : "HQ",
+        "unitCategory" : "HQL",
         "unitCost" : 330.0,
         "unitID" : 2329,
         "autoAddDictionary" : { },
